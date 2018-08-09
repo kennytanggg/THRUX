@@ -1,10 +1,14 @@
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
+.. centered:: **THRUX**
+
+
 **What is THRUX?**
-================
-*****************************************************************************************************************************************************************************
+==================
+******************************************************************************************************************************************************************************************************************************************************************
+
 THRUX is a cloud-based design environment suite that fills the market gap of streamlined building design calculations, by bridging the gap between Engineers/Designers, Architects and Contractors, providing iterative, cost conscience design assistance.
 
 Opportunity
@@ -40,7 +44,7 @@ support@thrux.io
 
 555-555-5555
 
-## **Quick Start Guide**
+**Quick Start Guide**
 ========================
 *****************************************************************************************************************************************************************************
 Creating a New Project
