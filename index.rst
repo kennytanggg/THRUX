@@ -3,6 +3,7 @@
    :caption: Contents:
 
 .. centered:: **THRUX**
+=======================
 
 
 **What is THRUX?**
@@ -12,7 +13,7 @@
 THRUX is a cloud-based design environment suite that fills the market gap of streamlined building design calculations, by bridging the gap between Engineers/Designers, Architects and Contractors, providing iterative, cost conscience design assistance.
 
 Opportunity
-================
+--------------------
 *****************************************************************************************************************************************************************************
 
 In order to deliver the best possible product, or construct the best building, Owners and Architects explore multitudes of design options, and Engineers are tasked with ensuring each design is safe and stable.  There is an increasing demand for professionals to rapidly respond to design changes, while still preserving quality.
@@ -22,20 +23,22 @@ Engineering tools have been scattered from paper, to spreadsheets, to analysis s
 THRUX is a design environment aimed to unite engineering tools of the construction industry to provide a consistent, transparent, and flexible design.
 
 Licensing
-================
+--------------------
 *****************************************************************************************************************************************************************************
 THRUX is available as a trial license, or as a professional license.
 
+#####
 Trial
------
+#####
 Insert Trial Package Content Here
 
+###############
 Professional
-------------
+###############
 Insert Professional Package Content Here
 
 Contact Us / Support
-====================
+--------------------
 
 *****************************************************************************************************************************************************************************
 If you would like to request a demonstration, or are having any technical issues, contact us at:
@@ -45,8 +48,9 @@ support@thrux.io
 555-555-5555
 
 **Quick Start Guide**
-========================
+=====================
 *****************************************************************************************************************************************************************************
+
 Creating a New Project
 ======================
 *****************************************************************************************************************************************************************************
@@ -259,11 +263,22 @@ test3
 test4
 -----
 
+^^^^^^
 test5
 ^^^^^^
 
+""""""
 test6
 """"""
+
+~~~~~~
+test7
+~~~~~~
+
+++++++
+test8
+++++++
+
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
