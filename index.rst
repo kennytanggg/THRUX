@@ -3,7 +3,7 @@
    :caption: Contents:
 
 .. centered:: **THRUX**
-=======================
+            ===========
 
 
 **What is THRUX?**
@@ -249,6 +249,11 @@ For example, a user can identify the cause of a voltage drop issue by navigating
 Workspace Overview
 *******************
 
+Equipment Rates
+----------------
+
+The Equipment Rates workspace allows designers to customize the rates of their installation materials.
+
 #####
 test1
 #####
@@ -271,13 +276,16 @@ test5
 test6
 """"""
 
-~~~~~~
 test7
 ~~~~~~
 
-++++++
 test8
 ++++++
+
+test9
+_____
+
+
 
 * :ref:`genindex`
 * :ref:`modindex`
