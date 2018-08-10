@@ -2,8 +2,14 @@
    :maxdepth: 3
    :caption: Contents:
 
+   QuickStartGuide
+
+:doc:'QuickStartGuide'
+    New User?  Follow our Quick Start Guide for help.
+
+
 .. centered:: **THRUX**
-            ===========
+            
 
 
 **What is THRUX?**
@@ -39,13 +45,17 @@ Insert Professional Package Content Here
 
 Contact Us / Support
 --------------------
-
 *****************************************************************************************************************************************************************************
 If you would like to request a demonstration, or are having any technical issues, contact us at:
 
 support@thrux.io
 
 555-555-5555
+
+
+See the :ref:'QuickStartGuide'.
+
+.. _QuickStartGuide:
 
 **Quick Start Guide**
 =====================
