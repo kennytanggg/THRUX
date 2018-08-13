@@ -1,10 +1,3 @@
-.. toctree::
-   :maxdepth: 3
-   :hidden:
-
-   source/quickstartguide
-   source/workspaceoverview
-
 New User?  Follow our :doc:`source/quickstartguide` or see our :doc:`source/workspaceoverview` for help.
 
 **What is THRUX?**
@@ -55,8 +48,6 @@ support@thrux.io
 
 Installation
 ------------
-
-Link:
 
 https://clickonce.blob.core.windows.net/edaxinstall/setup.exe
 
