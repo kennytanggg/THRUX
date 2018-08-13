@@ -1,11 +1,9 @@
 .. toctree::
    :maxdepth: 3
-   :caption: Contents:
 
-   QuickStartGuide
+   quickstartguide.rst
 
-:doc:'QuickStartGuide'
-    New User?  Follow our Quick Start Guide for help.
+New User?  Follow our Quick Start Guide for help.
 
 
 .. centered:: **THRUX**
