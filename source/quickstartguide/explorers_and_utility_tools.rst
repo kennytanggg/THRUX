@@ -1,5 +1,5 @@
-Explorers / Utility Design Tools
-===============================
+**Explorers / Utility Design Tools**
+====================================
 
 .. toctree::
     :maxdepth: 2

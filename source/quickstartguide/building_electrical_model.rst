@@ -1,5 +1,5 @@
-**Building Electrical Model**
-=============================
+**Building the Electrical Model**
+=================================
 
 .. toctree::
     :maxdepth: 2
