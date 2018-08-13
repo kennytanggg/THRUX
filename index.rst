@@ -3,8 +3,9 @@
    :hidden:
 
    source/quickstartguide
+   source/workspaceoverview
 
-New User?  Follow our :doc:'Quick Start Guide <quickstartguide>' for help.
+New User?  Follow our :doc:`source/quickstartguide` or see our :doc:`source/workspaceoverview` for help.
 
 **What is THRUX?**
 ==================
@@ -52,16 +53,12 @@ support@thrux.io
 
 555-555-5555
 
-:doc:`source/quickstartguide`
+Installation
+------------
 
-********************
-Workspace Overview
-********************
+Link:
 
-Equipment Rates
-----------------
-
-The Equipment Rates workspace allows designers to customize the rates of their installation materials.
+https://clickonce.blob.core.windows.net/edaxinstall/setup.exe
 
 #####
 test1
