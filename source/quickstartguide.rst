@@ -1,5 +1,11 @@
 .. QuickStartGuide:
 
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+
+   source/quickstartguide
+
 **Quick Start Guide**
 =====================
 

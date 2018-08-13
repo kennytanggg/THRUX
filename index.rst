@@ -4,7 +4,7 @@
 
    source/quickstartguide
 
-New User?  Follow our :ref:'QuickStartGuide' for help.
+New User?  Follow our :doc:'Quick Start Guide <quickstartguide>' for help.
 
 **What is THRUX?**
 ==================
@@ -51,11 +51,6 @@ If you would like to request a demonstration, or are having any technical issues
 support@thrux.io
 
 555-555-5555
-
-See the :ref:'QuickStartGuide'
-.. QuickStartGuide:
-
-.. _QuickStartGuide:
 
 :doc:`source/quickstartguide`
 
