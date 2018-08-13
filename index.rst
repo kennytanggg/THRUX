@@ -1,9 +1,10 @@
 .. toctree::
    :maxdepth: 3
+   :hidden:
 
-   source/quickstartguide.rst
+   source/quickstartguide
 
-New User?  Follow our Quick Start Guide for help.
+New User?  Follow our :ref:'QuickStartGuide' for help.
 
 **What is THRUX?**
 ==================
@@ -55,6 +56,8 @@ See the :ref:'QuickStartGuide'
 .. QuickStartGuide:
 
 .. _QuickStartGuide:
+
+:doc:`source/quickstartguide`
 
 ********************
 Workspace Overview
