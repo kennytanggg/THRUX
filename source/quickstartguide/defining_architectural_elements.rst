@@ -32,7 +32,11 @@ Grid Editor
 
 Creating Rooms
 --------------
-  Once floors are created, create a room by hovering your mouse between column regions, and clicking Add Room.
+  Once floors are created, create a room by hovering your mouse between column regions, and clicking Add Room.  To create a room in a common location spanning multiple floors, use Shift+Click to select multiple floors, and then hover over a grid region to click Add Room.
+
+Moving Rooms / Risers
+---------------------
+  Once rooms or risers are created, move a room or riser by clicking and dragging it to the new region.
 
 Risers
 ------

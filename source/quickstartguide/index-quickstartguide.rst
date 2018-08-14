@@ -9,7 +9,7 @@ General Navigation Overview
 ******************************************************************************************************************************************************************************************************************************************************************
 
 
-The left side toolbar is also known as the Workspace Toolbar.  Workspaces can be hosted on different windows by dragging them outside of THRUX's main window.
+The left side toolbar is also known as the Workspace Toolbar.  Workspaces can be hosted on different windows by dragging them outside of THRUX's main window.  Bring these windows back into THRUX by clicking Dock in the top right.
 
 #####################
 Electrical Workspaces
@@ -44,7 +44,7 @@ Change Tracking allows designers to compare branches of issuances.  Results can 
 ################
 Explorer Toolbar
 ################
-Explorers and other Utility tools can be found on the right side toolbar, also known as the Explorer Toolbar.
+Explorers and other Utility tools can be found on the right side toolbar, also known as the :ref:`_index-explorers_and_utility_tools' Explorer Toolbar.
 
 ******************************************************************************************************************************************************************************************************************************************************************
 

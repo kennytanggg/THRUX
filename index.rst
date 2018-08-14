@@ -1,5 +1,11 @@
 New User?  Follow our :doc:`source/quickstartguide/index-quickstartguide` for help.
 
+.. toctree::
+    :maxdepth: 2
+    :hidden:
+
+    source/quickstartguide/index-quickstartguide
+
 **What is THRUX?**
 ==================
 

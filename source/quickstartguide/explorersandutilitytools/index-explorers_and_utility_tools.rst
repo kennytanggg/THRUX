@@ -1,3 +1,5 @@
+_index-explorers_and_utility_tools
+
 **Explorers / Utility Design Tools**
 ====================================
 
@@ -13,6 +15,8 @@ The right side of THRUX is generally where the explorers or utility functions ar
     price_tracker
     scenario_manager
     data_exporter
+    change_tracking
+    status_bar
 
 :doc:`properties_explorer`
     The Properties Explorer presents properties of the current selection.
@@ -33,4 +37,10 @@ The right side of THRUX is generally where the explorers or utility functions ar
     The Scenario Manager allows the designer to create different scenarios which toggle the state of specific protective devices.
 
 :doc:`data_exporter`
-    The Data Exporter allows the designer to export their data model in .csv, .xml, or .json
+    The Data Exporter allows the designer to export their data model in .csv, .xml, or .json.
+
+:doc:`change_tracking`
+    Change Tracking allows designers to compare branches of issuances.
+
+:doc:`status_bar`
+    The Status Bar is located at the bottom of THRUX.  It indicates different states of THRUX, and provides other utility functions.

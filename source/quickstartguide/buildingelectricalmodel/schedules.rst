@@ -48,7 +48,7 @@ A user can lock a selection which will prevent elements from being modified.  Se
 
 Adding OCPDs
 ------------
-The amount of protective devices a distribution board supports is proportional to its physical installation.
+The amount of protective devices a distribution board supports is proportional to its physical installation.  Equipment can not be added to the distribution board unless there is space alotted.  To add a protective device, click Add OCPD.
 
 Navigate
 --------
