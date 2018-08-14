@@ -52,6 +52,9 @@ Installation
 https://clickonce.blob.core.windows.net/edaxinstall/setup.exe
 
 
+:doc:`source/quickstartguide/index-quickstartguide`
+===================================================
+
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
