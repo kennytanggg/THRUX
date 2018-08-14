@@ -30,9 +30,9 @@ Trial
 #####
 Insert Trial Package Content Here
 
-###############
+#############
 Professional
-###############
+#############
 Insert Professional Package Content Here
 
 Contact Us / Support
@@ -51,36 +51,6 @@ Installation
 
 https://clickonce.blob.core.windows.net/edaxinstall/setup.exe
 
-#####
-test1
-#####
-
-******
-test2
-******
-
-test3
-======
-
-test4
------
-
-^^^^^
-test5
-^^^^^
-
-"""""
-test6
-"""""
-
-test7
-~~~~~
-
-test8
-+++++
-
-test9
-_____
 
 * :ref:`genindex`
 * :ref:`modindex`

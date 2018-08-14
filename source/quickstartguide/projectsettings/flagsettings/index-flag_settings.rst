@@ -3,11 +3,13 @@ Flag Settings
 
 THRUX provides code validated designs, and presents users with notifications for when their design is violating a code applicable to their project. 
 
-Certain Flags can be ignored, or have the visibility setting omitted.
+Certain Flags can be ignored, or have the visibility setting omitted.  Deselect to omit a flag.
+
+Yellow Flags are warnings which are violations of applicable safety codes.  Red Flags are program errors, such as an equipment without a name.
 
 * Normal Priority Voltage Drop Threshold
 
-  A flag is raised when the VD Net % for a piece of distribution equipment exceeds a specified %.  The default value is 2%.  The default threshol for end of line equipment is 5%.
+  A flag is raised when the VD Net % for a piece of distribution equipment exceeds a specified %.  The default value is 2%.  The default threshold for end of line equipment is 5%.
 
 * Non-Normal Priorty Voltage Drop Threshold
 
@@ -15,7 +17,7 @@ Certain Flags can be ignored, or have the visibility setting omitted.
 
 * Name
 
-  A flag is raised when a piece of equipment does not have a name.  Deselect to omit this flag.
+  A flag is raised when a piece of equipment does not have a name.  
 
 * Breaker Undersized
 

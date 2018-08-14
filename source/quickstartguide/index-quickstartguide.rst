@@ -6,7 +6,6 @@ Quick Start Guide
 
     creating_a_new_project
     defining_architectural_elements
-    building_electrical_model
-    explorers_and_utility_tools
+    buildingelectricalmodel/index-building_electrical_model
+    explorersandutilitytools/index-explorers_and_utility_tools
 
-*****************************************************************************************************************************************************************************
