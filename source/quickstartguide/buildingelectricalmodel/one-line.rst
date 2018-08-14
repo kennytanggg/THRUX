@@ -1,6 +1,6 @@
-########
-One-Line
-########
+############
+**One-Line**
+############
 
 *******************************************************************************************************************************************************************************************************************************************************************************************
 
@@ -19,7 +19,7 @@ Add Equipment
 Click on the Utility and the Selection Dial will display a ring of options.  Click the + button to Add Equipment.
 
 Copy / Paste Equipment
---------------
+----------------------
 To copy equipment, select the equipment.  Click Copy or use CTRL + C to copy. The selection will highlight pink and be added to the clipboard.  Then, select the source or equipment to paste to, and click Paste or use CTRL+V.
 
 Delete Equipment
@@ -27,8 +27,8 @@ Delete Equipment
 To delete equipment, select the equipment.  Then Click Delete (trash symbol) or use DEL to delete. 
 
 Dragging / Rehosting Equipment
-----------------
-To redirect an equipment's source, click and drag the equipment from it's current source, to a different source.
+------------------------------
+To redirect an equipment's source, click and drag the equipment from its current source, to a different source.
 
 Navigate
 --------
@@ -65,10 +65,6 @@ Quick Views are preset property groupings such as Voltage Drop, Loading, Load Di
 Expanding / Collapsing Equipment
 --------------------------------
 Sections of the distribution network can be expanded or collapsed on an individual or group basis.  
-
-Expanding / Collapsing Equipment
---------------------------------
-To search for equipment, click the magnifying glass in the top left.  Start to type the name of the equipment you are searching for.  Select the equipment, and the workspace will navigate to the associated equipment.
 
 One-Line View Selectors
 -----------------------

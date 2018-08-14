@@ -1,6 +1,6 @@
-#########
-Schedules
-#########
+#############
+**Schedules**
+#############
 
 *******************************************************************************************************************************************************************************************************************************************************************************************
 
@@ -36,23 +36,27 @@ Edit Properties
 ---------------
 Select a circuit number, and then click the Edit Properties (Gear Symbol) to open the Properties Explorer.
 
-Reset to Code Minimum
----------------------
 If circuit properties are manually modified and generate flags, a designer can reset the circuit properties to be the code minimum value.  Select the circuit number, then click Reset to Code Minimum (Wand Symbol).
 
-Reordering Circuits
--------------------
-The ordering of circuits can affect the overall construction of the board.  To move circuits, select the circuit number, and then click and drag the grip icon.
+Rehosting Equipment / Reordering Circuits
+-----------------------------------------
+The ordering of circuits can affect the overall construction of the board.  To move circuits or to change a circuits source, select the circuit number, and then click and drag the grip icon.
 
 Lock / Unlock
 -------------
 A user can lock a selection which will prevent elements from being modified.  Select a circuit number, and then click the Lock / Unlock (Lock Symbol) button.
 
-Lock / Unlock
--------------
-A user can lock a selection which will prevent elements from being modified.  Select a circuit number, and then click the Lock / Unlock (Lock Symbol) button.
+Adding OCPDs
+------------
+The amount of protective devices a distribution board supports is proportional to its physical installation.
 
+Navigate
+--------
+Right-click on a circuit element to open an additional utility menu.  A designer can navigate to other schedules or to the One-Line by selecting Scope to Schedule, or Scope to One-Line.
 
+Converting Breaker/Switch and Fuse
+----------------------------------
+By default, Distribution Boards use breakers as their protective devices, while Switchboards use switch and fuse combinations.  To convert a board's protective devices, click the Settings (Gear Symbol) button in the top left of the schedule.  Then under Change Schedule Type, select Convert to Switch/Fuse.
 
 Schedule Views
 --------------

@@ -1,4 +1,4 @@
-New User?  Follow our :doc:`source/quickstartguide/index-quickstartguide` or see our :doc:`source/workspaceoverview/index-workspaceoverview` for help.
+New User?  Follow our :doc:`source/quickstartguide/index-quickstartguide` for help.
 
 **What is THRUX?**
 ==================
