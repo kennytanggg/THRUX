@@ -44,7 +44,7 @@ Change Tracking allows designers to compare branches of issuances.  Results can 
 ################
 Explorer Toolbar
 ################
-Explorers and other Utility tools can be found on the right side toolbar, also known as the :ref:`_index-explorers_and_utility_tools' Explorer Toolbar.
+Explorers and other Utility tools can be found on the right side toolbar, also known as the Explorer Toolbar.
 
 ******************************************************************************************************************************************************************************************************************************************************************
 
