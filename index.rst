@@ -1,4 +1,4 @@
-New User?  Follow our :doc:`source/quickstartguide/index-quickstartguide` for help.
+New User?  Follow our :doc:`source/quickstartguide/index-quick_start_guide` for help.
 
 **What is THRUX?**
 ==================
@@ -54,7 +54,7 @@ support@thrux.io
     :caption: Quick Start Guide
     :hidden:
 
-    source/quickstartguide/index-quickstartguide
+    source/quickstartguide/index-quick_start_guide
 
 * :ref:`genindex`
 * :ref:`modindex`

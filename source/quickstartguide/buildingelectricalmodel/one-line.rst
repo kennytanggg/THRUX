@@ -66,13 +66,15 @@ Normal
 
 Calculations are based on the Net Load.
 
+###############
 Board Capacity
---------------
+###############
 
 Calculations are based on the capacity of the board.
 
+##############
 Load Override
--------------
+##############
 
 Calculations are based on the Load Override value.  For example, if a designer wants to model a specific loading scenario between points in their distribution system, enter these loading values into Load Override.
 
