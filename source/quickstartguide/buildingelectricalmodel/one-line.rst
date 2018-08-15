@@ -6,29 +6,43 @@
 
 The One-Line depicts power flow in a top-to-bottom sequence.  
 
-Utility functions like navigation, and additional viewing properties can be found on the workspace toolbox at the top.  
+Utility functions like navigation, or additional viewing properties can be found on the workspace toolbox at the top.  
 
 Property Tags can be applied to assist with design or network visualization.
 
 Add a Source
 ============
 
-Right-click inside the workspace and click Add Source, then click Utility Source.
+Use the Setup Wizard to Create Source, or Right-click inside the workspace and click Add Source, then click Utility Source.
+
+.. image:: images/one-line-create-source.PNG
 
 Add Equipment
 =============
 
 Click on the Utility and the Selection Dial will display a ring of options.  Click the + button to Add Equipment.
 
+.. image:: images/one-line-add_equipment.PNG
+
+.. image:: images/one-line-add_dist_board.PNG
+
 Copy / Paste Equipment
 ======================
 
-To copy equipment, select the equipment.  Click Copy or use CTRL + C to copy. The selection will highlight pink and be added to the clipboard.  Then, select the source or equipment to paste to, and click Paste or use CTRL+V.
+To copy equipment, select the equipment.  Click Copy or use CTRL + C to copy. The selection will highlight pink and be added to the clipboard.  
 
-Delete Equipment
-================
+.. image:: images/one-line-copy_equipment.PNG
+
+Then, select the source or equipment to paste to, and click Paste or use CTRL+V.
+
+.. image:: images/one-line-paste_equipment.PNG
+
+Delete Equipment / Delete Network
+=================================
 
 To delete equipment, select the equipment.  Then Click Delete (trash symbol) or use DEL to delete. 
+
+
 
 Dragging / Rehosting Equipment
 ==============================
@@ -53,16 +67,16 @@ Searching
 To search for equipment, click the magnifying glass in the top left.  Start to type the name of the equipment you are searching for.  Select the equipment, and the workspace will navigate to the associated equipment.
 
 Settings
-================
+========
 
 Toggle the visibility settings of OCPD's by hitting Show OCPD.
 
 Load Calculations
 =================
 
-############
+######
 Normal
-############
+######
 
 Calculations are based on the Net Load.
 

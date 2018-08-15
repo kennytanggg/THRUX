@@ -26,19 +26,27 @@ Use the Setup Wizard to create the columns and floors of your project.
 
 You can create multiple columns and floors at a time by specifying a distance in between each.  These can be individually modified in Architectural Elements.
 
+.. image:: images/columncreator.PNG
+
 Cycle through floors by selecting the floor on the left side bar.
+
+.. image:: images/floorselector.PNG
 
 Grid Editor
 -----------
 Use the Grid Editor to modify the spacing in between columns.
 
+.. image:: images/grideditor.PNG
+
 Creating Rooms
 --------------
-Once floors are created, create a room by hovering your mouse between column regions, and clicking Add Room.  To create a room in a common location spanning multiple floors, use Shift+Click to select multiple floors, and then hover over a grid region to click Add Room.
+Once floors are created, create a room by hovering your mouse between column regions, and clicking Add Room.  
 
-Moving Rooms / Risers
----------------------
-Once rooms or risers are created, move a room or riser by clicking and dragging it to the new region.
+.. image:: images/roomcreation.PNG
+
+To create a room in a common location spanning multiple floors, use Shift+Click to select multiple floors, and then hover over a grid region to click Add Room.
+
+.. image:: images/multiroom.PNG
 
 Risers
 ------
@@ -48,6 +56,14 @@ Therefore, instead of routing directly from a distribution equipment to a load, 
 
 To create a Riser, in the Floor Plans workspace, select a group of floors which the riser will span.  Use Shift+Click to multi-select.  Then hover over a grid region, and select Add Riser.  This can also be modified in Architectural Elements.
 
+.. image:: images/riser.PNG
+
+Moving Rooms / Risers
+---------------------
+Once rooms or risers are created, move a room or riser by clicking and dragging it to the new region.
+
+.. image:: images/moveroom.PNG
+
 Load Packages
 -------------
 Load Packages are used to model power densities of a group of elements.  
@@ -56,8 +72,12 @@ For example, a group of floors could each have their SpaceType designated as Off
 
 To create a Load Package, within Architectural Elements, select a group of Floors, or Rooms.  In the orange textbox, enter a name for the Load Package, and then click the (+) button.  To view your Load Packages, click the Arch. Package tab.
 
+.. image:: images/createpackage.PNG
+
 Load Allocations
 ----------------
 In addition to floor or room power densities, power can be allocated to specific floors.
 
-For example, if a designer is in the process of massing loads, and wants to assign a 50 HP load to each Office Floor, create a Load Allocation, and use the (+) button to assign it to each Floor of the Office Space Type.
+For example, if a designer is in the process of massing loads, and wants to assign a 15 HP load to each Office Floor, create a Load Allocation, and use the (+) button to assign it to each Floor of the Office Space Type.
+
+.. image:: images/loadallocation.PNG
