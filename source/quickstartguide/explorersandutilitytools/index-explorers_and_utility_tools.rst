@@ -1,5 +1,3 @@
-_index-explorers_and_utility_tools
-
 **Explorers / Utility Design Tools**
 ====================================
 

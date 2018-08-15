@@ -50,11 +50,24 @@ Toggle the visibility settings of OCPD's by hitting Show OCPD.
 
 Load Calculations
 -----------------
-* Normal - Calculations are based on the Net Load.
 
-* Board Capacity - Calculations are based on the capacity of the board.
+######
+Normal
+######
 
-* Overridden Loads - Calculations are based on the Load Override value.  For example, if a designer wants to model a specific loading scenario between points in their distribution system, enter these loading values into Load Override.
+Calculations are based on the Net Load.
+
+##############
+Board Capacity
+##############
+
+Calculations are based on the capacity of the board.
+
+################
+Overridden Loads
+################
+
+Calculations are based on the Load Override value.  For example, if a designer wants to model a specific loading scenario between points in their distribution system, enter these loading values into Load Override.
 
 Property Tags / Quick Views
 ---------------------------
@@ -72,6 +85,6 @@ Different Views can be applied to aid the designer.
 
 By default, Normal is selected.  
 
-Isolated Systems is recommended to be used when viewing transfer switches.  The designer can study voltage drop as a switch is fed from different sources.
+Isolated Systems is recommended when viewing transfer switches.  The designer can study voltage drop as a switch is fed from different sources.
 
-Load Flow is recommended to be used when studying how a system is loaded.
+Load Flow is recommended when studying how a system is loaded.
