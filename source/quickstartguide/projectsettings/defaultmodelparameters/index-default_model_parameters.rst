@@ -1,7 +1,9 @@
 Default Model Parameters
 ========================
 
-The entities or objects you will use to build your model need to have some initial or base information.For example, to build your entire model using aluminum, select the Conductor Type from the dropdown below:
+The entities or objects you will use to build your model need to have some initial or base information.  For example, to build your entire model using aluminum, select the Conductor Type from the dropdown below:
+
+.. image:: images/defaultmodelparameters.PNG
 
 Circuit
 --------

@@ -13,7 +13,7 @@ Trip Size
 Deselect Frame Size to omit the Trip Size from being recalculated upon changes to circuit properties.
 
 kAIC Rating
-----------
+-----------
 Deselect Frame Size to omit the kAIC Rating from being recalculated upon changes to circuit properties.
 
 Temperature Rating
