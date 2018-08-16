@@ -22,31 +22,31 @@ Setup Wizard
 ------------
 Use the Setup Wizard to create the columns and floors of your project.
 
-.. image:: images/setupwizard.PNG
+.. image:: images/setup_wizard.PNG
 
 You can create multiple columns and floors at a time by specifying a distance in between each.  These can be individually modified in Architectural Elements.
 
-.. image:: images/columncreator.PNG
+.. image:: images/column_creator.PNG
 
 Cycle through floors by selecting the floor on the left side bar.
 
-.. image:: images/floorselector.PNG
+.. image:: images/floor_selection.PNG
 
 Grid Editor
 -----------
 Use the Grid Editor to modify the spacing in between columns.
 
-.. image:: images/grideditor.PNG
+.. image:: images/grid_editor.PNG
 
 Creating Rooms
 --------------
 Once floors are created, create a room by hovering your mouse between column regions, and clicking Add Room.  
 
-.. image:: images/roomcreation.PNG
+.. image:: images/room_creation.PNG
 
 To create a room in a common location spanning multiple floors, use Shift+Click to select multiple floors, and then hover over a grid region to click Add Room.
 
-.. image:: images/multiroom.PNG
+.. image:: images/multi_room.PNG
 
 Risers
 ------
@@ -62,7 +62,21 @@ Moving Rooms / Risers
 ---------------------
 Once rooms or risers are created, move a room or riser by clicking and dragging it to the new region.
 
-.. image:: images/moveroom.PNG
+.. image:: images/move_room.PNG
+
+Conduit Lengths
+---------------
+Conduit lengths are determined by a starting location, and an ending location.  
+
+.. image:: images/conduit_lengths_1.PNG
+
+The Calculated Length, or orthogonal route, between two pieces of equipment is determined by their Room locations.  A designer can modify the Manual Added Length to account for additional distance.
+
+.. image:: images/conduit_lengths_2.PNG
+
+In addition, if the conduits are being routed through a riser shaft, assign a Riser to the terminating equipment.
+
+.. image:: images/conduit_lengths_3.PNG
 
 Load Packages
 -------------
@@ -72,7 +86,7 @@ For example, a group of floors could each have their SpaceType designated as Off
 
 To create a Load Package, within Architectural Elements, select a group of Floors, or Rooms.  In the orange textbox, enter a name for the Load Package, and then click the (+) button.  To view your Load Packages, click the Arch. Package tab.
 
-.. image:: images/createpackage.PNG
+.. image:: images/create_package.PNG
 
 Load Allocations
 ----------------
@@ -80,4 +94,4 @@ In addition to floor or room power densities, power can be allocated to specific
 
 For example, if a designer is in the process of massing loads, and wants to assign a 15 HP load to each Office Floor, create a Load Allocation, and use the (+) button to assign it to each Floor of the Office Space Type.
 
-.. image:: images/loadallocation.PNG
+.. image:: images/load_allocation.PNG

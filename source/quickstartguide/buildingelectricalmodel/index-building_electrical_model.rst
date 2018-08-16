@@ -12,6 +12,6 @@ The locations of equipment are determined by the Architectural Model, or can be 
 .. toctree::
     :maxdepth: 2
 
-    one-line
-    schedules
-    riser 
+    one-line/index-one-line
+    schedules/index-schedules
+    riser/index-riser 
