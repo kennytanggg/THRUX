@@ -42,34 +42,50 @@ Delete Equipment / Delete Network
 
 To delete equipment, select the equipment.  Then Click Delete (trash symbol) or use DEL to delete. 
 
+.. image:: images/one-line-delete_equipment.PNG
 
+If the selected equipment is feeding downstream equipment, you can either delete the selected equipment, or the entire network.
+
+.. image:: images/one-line-delete_network.PNG
 
 Dragging / Rehosting Equipment
 ==============================
 
 To redirect an equipment's source, click and drag the equipment from its current source, to a different source.
 
+.. image:: images/one-line-rehost.PNG
+
 Navigate
 ========
 
 Navigate grants the ability to jump between workspaces based on the current selection.
 
+.. image:: images/one-line-navigate.PNG
+
 A designer can view an equipment's schedule, location on the Riser, location on the Floor Plans, or the Studies workspace.
 
-Navigate to: Schedules
-======================
+.. image:: images/one-line-navigate_schedules.PNG
 
-To navigate to an equipment's schedule, select the equipment, and then click View Schedule.
+View Schedule
+=============
+
+To view to an equipment's schedule, select the equipment, and then click View Schedule.
+
+.. image:: images/one-line-view_schedule.PNG
 
 Searching
 =========
 
 To search for equipment, click the magnifying glass in the top left.  Start to type the name of the equipment you are searching for.  Select the equipment, and the workspace will navigate to the associated equipment.
 
+.. image:: images/one-line-searching.PNG
+
 Settings
 ========
 
 Toggle the visibility settings of OCPD's by hitting Show OCPD.
+
+.. image:: images/one-line-ocpd_settings.PNG
 
 Load Calculations
 =================
@@ -99,10 +115,14 @@ Use Property Tags to view and edit specific elements of your design.  Click the 
 
 Quick Views are preset property groupings such as Voltage Drop, Loading, Load Diversification, and Circuit Routing. 
 
+.. image:: images/one-line-property_tags_quick_views.PNG
+
 Expanding / Collapsing Equipment
 ================================
 
-Sections of the distribution network can be expanded or collapsed on an individual or group basis.  
+Sections of the distribution network can be expanded or collapsed on an individual or group basis.  An alternative to expanding equipment is by double-clicking on the node.
+
+.. image:: images/one-line-expand_collapse.PNG
 
 One-Line View Selectors
 =======================
@@ -114,3 +134,5 @@ By default, Normal is selected.
 Isolated Systems is recommended when viewing transfer switches.  The designer can study voltage drop as a switch is fed from different sources.
 
 Load Flow is recommended when studying how a system is loaded.
+
+.. image:: images/one-line-load_flow.PNG

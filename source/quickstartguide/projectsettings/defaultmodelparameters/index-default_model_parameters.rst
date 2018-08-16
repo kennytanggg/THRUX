@@ -10,7 +10,7 @@ Circuit
 
 Specify the characteristics of each feeder circuit. 
 
-For example, "Added Length" is an additional factor which is added a circuit's "Calculated Length."Lengths are determined by equipment locations.
+For example, "Added Length" is an additional factor which is added a circuit's "Calculated Length."  Lengths are determined by equipment locations.
 
 MVCircuit
 ---------
