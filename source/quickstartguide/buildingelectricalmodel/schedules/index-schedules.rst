@@ -19,6 +19,8 @@ To open a schedule, either use the Search (Magnifying glass) button, or use the 
 
 .. image:: images/schedules-add_schedule.PNG
 
+.. index:: How to Copy Equipment - Schedules
+
 Copy / Copy / Paste Circuits
 =============================
 
@@ -34,6 +36,8 @@ Then, select the source or equipment to paste to, and click Paste or use CTRL+V.
 
 .. image:: images/schedules-copy_circuit_3.PNG
 
+.. index:: How to Delete Equipment - Schedules
+
 Delete Equipment
 ================
 
@@ -48,12 +52,16 @@ If circuit properties are manually modified and generate flags, a designer can r
 
 .. image:: images/schedules-reset_to_code_minimum.PNG
 
+.. index:: How do I edit the properties of a circuit? - Schedules
+
 Edit Properties
 ===============
 
 Select a circuit number, and then click the Edit Properties (Gear Symbol) to open the Properties Explorer.
 
 .. image:: images/schedules-edit_properties.PNG
+
+.. index:: How to Delete Equipment - Schedules
 
 Rehosting Equipment / Reordering Circuits
 =========================================
@@ -64,7 +72,6 @@ The ordering of circuits can affect the overall construction of the board.  To m
 
 .. image:: images/schedules-rehost_2.PNG
 
-
 Lock / Unlock
 =============
 
@@ -73,6 +80,8 @@ A user can lock a selection which will prevent elements from being modified.  Se
 .. image:: images/schedules-lock_unlock_1.PNG
 
 .. image:: images/schedules-lock_unlock_2.PNG
+
+.. index:: Why Can't I Add Equipment to this Distribution Board?
 
 Adding OCPDs
 ============
@@ -101,6 +110,8 @@ Schedule Views
 Groups of schedules can be saved for a later viewing.  Open the schedules to group, then click Save As New View, and enter a name.  Return to this view at any time.
 
 .. image:: images/schedules-save_new_view.PNG
+
+.. index:: Exporting - Schedules
 
 Exporting
 =========

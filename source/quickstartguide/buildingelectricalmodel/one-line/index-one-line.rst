@@ -10,10 +10,13 @@ Utility functions like navigation, or additional viewing properties can be found
 
 Property Tags can be applied to assist with design or network visualization.
 
+.. index:: How to Create a Source
+.. _one-line_creatingasource
+
 Add a Source
 ============
 
-Use the Setup Wizard to Create Source, or Right-click inside the workspace and click Add Source, then click Utility Source.
+Use the Setup Wizard to Create Source, or Right-click inside the workspace and click Add Source, then click Utility Source. 
 
 .. image:: images/one-line-create_source.PNG
 
@@ -25,6 +28,8 @@ Click on the Utility and the Selection Dial will display a ring of options.  Cli
 .. image:: images/one-line-add_equipment.PNG
 
 .. image:: images/one-line-add_dist_board.PNG
+
+.. index:: How to Copy Equipment - One-Line
 
 Copy / Paste Equipment
 ======================

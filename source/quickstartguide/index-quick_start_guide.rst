@@ -8,13 +8,12 @@ General Navigation Overview
 
 ******************************************************************************************************************************************************************************************************************************************************************
 
-
 The left side toolbar is also known as the Workspace Toolbar.  Workspaces can be hosted on different windows by dragging them outside of THRUX's main window.  Bring these windows back into THRUX by clicking Dock in the top right.
 
 #####################
 Electrical Workspaces
 #####################
-The top 3 workspaces, One-Line, Riser, and Schedules, are the main electrical workspaces to build your distribution system.
+The top 3 workspaces, :doc:`buildingelectricalmodel/one-line/index-one-line`, :doc:`buildingelectricalmodel/riser/index-riser`, and :doc:`buildingelectricalmodel/schedules/index-schedules`, are the main electrical workspaces to build your distribution system.
 
 ########################
 Architectural Workspaces
@@ -24,27 +23,27 @@ The next 2 workspaces, Arch. Elements, and Floor Plans, are mainly used to creat
 #######
 Studies
 #######
-The next workspace, Studies, is used as a reporting mechanism for different study types your design.
+The next workspace, :doc:`utilityworkspaces/studies/index-studies`, is used as a reporting mechanism for different study types your design.
 
 #######
 Pricing
 #######
-Pricing Report and Equipment Rates, allow you to analyze the price of your design, and customize costs of materials and labor rates.
+:doc:`utilityworkspaces/pricingreport/index-pricing_report` and :doc:`utilityworkspaces/equipmentrates/index-equipment_rates`, allow you to analyze the price of your design, and customize costs of materials and labor rates.
 
 #####
 Codes
 #####
-Codes Reference allows designers to view various reference tables, or industry standards.
+:doc:`utilityworkspaces/codesreference/index-codes_reference` allows designers to view various reference tables, or industry standards.
 
 ###############
 Change Tracking
 ###############
-Change Tracking allows designers to compare branches of issuances.  Results can be exported to an Excel document, by using Copy/Paste.
+:doc:`utilityworkspaces/changetracking/index-change_tracking` allows designers to compare branches of issuances.  Results can be exported to an Excel document, by using Copy/Paste.
 
 ################
 Explorer Toolbar
 ################
-Explorers and other Utility tools can be found on the right side toolbar, also known as the Explorer Toolbar.
+Explorers and other Utility tools can be found on the right side toolbar, also known as the :doc:`Explorer Toolbar <explorersandutilitytools/index-explorers_and_utility_tools>`.
 
 ******************************************************************************************************************************************************************************************************************************************************************
 
@@ -55,4 +54,5 @@ Explorers and other Utility tools can be found on the right side toolbar, also k
     definingarchitecturalelements/index-defining_architectural_elements
     buildingelectricalmodel/index-building_electrical_model
     explorersandutilitytools/index-explorers_and_utility_tools
+    utilityworkspaces/index-utility_workspaces
 
