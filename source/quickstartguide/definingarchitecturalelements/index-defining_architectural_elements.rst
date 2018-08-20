@@ -3,10 +3,13 @@
 
 .. toctree::
     :maxdepth: 2
+    :hidden:
+
+    archelements/index-arch_elements
 
 *******************************************************************************************************************************************************************************************************************************************************************************************
 
-The Architectural Elements are the spacial elements which give engineers a base for their point to point calculations.  
+The :doc:`archelements/index-arch_elements` are the spacial elements which give engineers a base for their point to point calculations.  
 
 For example, voltage drop is a calculation based on the electrical load, and the distance between the source and the load.
 

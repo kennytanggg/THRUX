@@ -9,7 +9,7 @@
 X Grid / Y Grid
 ---------------
 
-X Grid and Y Grid components are used to establish a location for Rooms.  Equipment is placed inside Rooms, which are effected by point to point calculations.
+X Grid and Y Grid components are used to establish a location for Rooms.  Equipment are placed inside Rooms, which are effected by point to point calculations.
 
 .. image:: images/XGrid_YGrid.PNG
 
@@ -23,7 +23,11 @@ Floors are used for power density calculations, and to also house rooms.
 Space Type
 ----------
 
-Space Types are used to assign power densities to architectural entities such as Floors and Rooms.  For example, engineers perform load massing calculations in order to size their main distribution equipment.  They allocate power differently for floor loads, lighting loads, and mechanical loads.  A variety of Space Types allows the engineer to study power density requirements of the project.
+Space Types are used to assign power densities to architectural entities such as Floors and Rooms.  
+
+For example, engineers perform load massing calculations in order to size their main distribution equipment.  They allocate power differently for floor loads, lighting loads, and mechanical loads.  
+
+A variety of Space Types allows the engineer to study power density requirements of the project.
 
 .. image:: images/Space_Type.PNG
 
@@ -92,7 +96,7 @@ Diversification
 
 Diversifications allows the designer to create customizable diversity factors which can be applied to different sections or levels of the distibrution system.  
 
-A Root Diversity is a factor applied to Root Level loads.  A Root Diversity cannot be less 0 and cannot be greater than the Distribution Diversity.
+A Root Diversity is a factor applied to Root Level loads.  A Root Diversity cannot be less zero and cannot be greater than the Distribution Diversity.
 
 A Distribution Diversity is a factor applied to Distribution Level loads.
 
