@@ -19,6 +19,8 @@ To open a schedule, either use the Search (Magnifying glass) button, or use the 
 
 .. index:: How to Copy Equipment - Schedules
 
+.. _Schedules-Copying-Equipment:
+
 Copy / Copy / Paste Circuits
 =============================
 
@@ -60,6 +62,8 @@ Select a circuit number, and then click the Edit Properties (Gear Symbol) to ope
 .. image:: images/schedules-edit_properties.PNG
 
 .. index:: How to Delete Equipment - Schedules
+
+.. _Schedules-Rehosting:
 
 Rehosting Equipment / Reordering Circuits
 =========================================

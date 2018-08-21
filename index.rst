@@ -1,4 +1,4 @@
-New User?  Follow our :doc:`source/quickstartguide/index-quick_start_guide` or see our :doc:`FAQ <faq>` for help.
+New User?  Follow our :doc:`Quick Start Guide <source/quickstartguide/index-quick_start_guide>` or see our :doc:`FAQ <faq>` for help.
 
 **What is THRUX?**
 ==================
@@ -50,7 +50,7 @@ support@thrux.io
 
 .. toctree::
     :maxdepth: 2
-    :caption: Frequently Asked Questions
+    :caption: FAQ's
     :hidden:
 
     faq

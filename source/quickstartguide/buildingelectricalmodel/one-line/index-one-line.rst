@@ -56,6 +56,8 @@ If the selected equipment is feeding downstream equipment, you can either delete
 
 .. image:: images/one-line-delete_network.PNG
 
+.. _One-Line-Rehosting:
+
 Dragging / Rehosting Equipment
 ==============================
 
@@ -141,3 +143,27 @@ Isolated Systems is recommended when viewing transfer switches.  The designer ca
 Load Flow is recommended when studying how a system is loaded.
 
 .. image:: images/one-line-load_flow.PNG
+
+.. _One-Line-Transfer_Switch:
+
+Creating a Transfer Switch
+==========================
+
+Transfer switches are connected to a primary and secondary source of power.  To create a transfer switch, click Add Equipment, and choose ATS/STS.
+
+.. image:: images/one-line-transfer_switch_1.PNG
+
+.. image:: images/one-line-transfer_switch_2.PNG
+
+To connect the secondary source of power, choose another distribution equipment.  Then click Add Equipment, and select an ATS/STS from the Existing dropdown menu.
+
+.. image:: images/one-line-transfer_switch_3.PNG
+
+.. _One-Line-Bus_Duct:
+
+How do I create a bus duct?
+===========================
+
+Select an equipment.  Then select Add Equipment to create a bus duct.  
+
+.. image:: images/one-line-bus_duct_1.PNG
