@@ -2,8 +2,6 @@
 **One-Line**
 ############
 
-*******************************************************************************************************************************************************************************************************************************************************************************************
-
 The One-Line depicts power flow in a top-to-bottom sequence.  
 
 Utility functions like navigation, or additional viewing properties can be found on the workspace toolbox at the top.  
@@ -11,7 +9,8 @@ Utility functions like navigation, or additional viewing properties can be found
 Property Tags can be applied to assist with design or network visualization.
 
 .. index:: How to Create a Source
-.. _one-line_creatingasource
+
+.. _One-Line-Adding-A-Source:
 
 Add a Source
 ============
@@ -19,6 +18,8 @@ Add a Source
 Use the Setup Wizard to Create Source, or Right-click inside the workspace and click Add Source, then click Utility Source. 
 
 .. image:: images/one-line-create_source.PNG
+
+.. _One-Line-Adding-Equipment:
 
 Add Equipment
 =============
@@ -30,6 +31,8 @@ Click on the Utility and the Selection Dial will display a ring of options.  Cli
 .. image:: images/one-line-add_dist_board.PNG
 
 .. index:: How to Copy Equipment - One-Line
+
+.. _One-Line-Copying-Equipment:
 
 Copy / Paste Equipment
 ======================

@@ -2,8 +2,6 @@
 **Schedules**
 #############
 
-*******************************************************************************************************************************************************************************************************************************************************************************************
-
 Schedules are a tabular representation of your distribution system.  Schedules are primarily used for Distribution Boards, Switchboards, and Panelboards.  Not every piece of equipment has a dedicated schedule.  For example, end of line equipment such as motors do not have schedules.
 
 The top portion of the workspace shows all open schedules.  Schedules can be exported to .csv or .dwg formats.
@@ -112,6 +110,9 @@ Groups of schedules can be saved for a later viewing.  Open the schedules to gro
 .. image:: images/schedules-save_new_view.PNG
 
 .. index:: Exporting - Schedules
+
+
+.. _Exporting-Schedules:
 
 Exporting
 =========
