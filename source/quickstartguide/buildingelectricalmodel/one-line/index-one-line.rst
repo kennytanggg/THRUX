@@ -1,7 +1,6 @@
 ############
 **One-Line**
 ############
-
 The One-Line depicts power flow in a top-to-bottom sequence.  
 
 Utility functions like navigation, or additional viewing properties can be found on the workspace toolbox at the top.  

@@ -11,7 +11,7 @@
     changetracking/index-change_tracking
 
 :doc:`studies/index-studies`
-Studies is a reporting workspace for technical studies of the project.
+    Studies is a reporting workspace for technical studies of the project.
 
 .. image:: images/studies.PNG
 
