@@ -1,6 +1,3 @@
-**Frequently Asked Questions**
-==============================
-
 Is THRUX compatible with Revit?
 -------------------------------
 

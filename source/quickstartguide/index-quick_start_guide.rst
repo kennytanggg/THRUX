@@ -1,8 +1,5 @@
-**Quick Start Guide**
-=====================
-
 General Navigation Overview
----------------------------
+===========================
 
 The left side toolbar is also known as the Workspace Toolbar.  Workspaces can be hosted on different windows by dragging them outside of THRUX's main window.  Bring these windows back into THRUX by clicking Dock in the top right.
 
@@ -48,8 +45,8 @@ Explorer Toolbar
 
 Explorers and other Utility tools can be found on the right side toolbar, also known as the :doc:`Explorer Toolbar <explorersandutilitytools/index-explorers_and_utility_tools>`.
 
-**Overview**
-============
+Getting Started
+===============
 
 .. toctree::
     :maxdepth: 3
