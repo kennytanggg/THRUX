@@ -14,9 +14,23 @@ Property Tags can be applied to assist with design or network visualization.
 Add a Source
 ============
 
-Use the Setup Wizard to Create Source, or Right-click inside the workspace and click Add Source, then click Utility Source. 
+Use the Setup Wizard in the top right to create a source.
 
-.. image:: images/one-line-create_source.PNG
+.. image:: images/one-line-create_source_1.PNG
+
+Choose Create Source.
+
+.. image:: images/one-line-create_source_2.PNG
+
+.. image:: images/one-line-create_source_3.PNG
+
+Or, Right-click inside the workspace, click Add Source, then click Utility Source. 
+
+.. image:: images/one-line-create_source_4.PNG
+
+.. image:: images/one-line-create_source_5.PNG
+
+.. image:: images/one-line-create_source_6.PNG
 
 .. _One-Line-Adding-Equipment:
 
@@ -26,6 +40,8 @@ Add Equipment
 Click on the Utility and the Selection Dial will display a ring of options.  Click the + button to Add Equipment.
 
 .. image:: images/one-line-add_equipment.PNG
+
+Select an equipment type from the New dropdown menu.  Give any new equipment a name.  In this case, specify a :ref:`Load Capacity <Load-Capacity>`, and click Select.
 
 .. image:: images/one-line-add_dist_board.PNG
 
@@ -62,7 +78,11 @@ Dragging / Rehosting Equipment
 
 To redirect an equipment's source, click and drag the equipment from its current source, to a different source.
 
-.. image:: images/one-line-rehost.PNG
+.. image:: images/one-line-rehost_1.PNG
+
+Drop, or release the equipment on its new source.
+
+.. image:: images/one-line-rehost_2.PNG
 
 Navigate
 ========

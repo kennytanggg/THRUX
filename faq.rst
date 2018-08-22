@@ -39,12 +39,12 @@ General
     * How do I create a bus duct?
         Select an equipment.  Then select Add Equipment to create a bus duct.  
 
-        See :ref:`Here <One-Line-Bus_Duct>` for an example in the One-Line.
+        See :ref:`here <One-Line-Bus_Duct>` for an example in the One-Line.
     
     * How do I connect a transfer switch?
         After a transfer switch is created, connect it's sources by selecting Add Equipment, and then click the Existing dropdown to select the transfer switch.
 
-        See :ref:`Here <One-Line-Transfer_Switch>`: for more details.  This is also available in the Schedules workspace.
+        See :ref:`here <One-Line-Transfer_Switch>` for more details.  This is also available in the Schedules workspace.
 
 ***************************************************************************************************************************************************************************************
 
@@ -73,6 +73,10 @@ Architectural
 Electrical Calculations
 #######################
 
+.. _Load-Capacity:
+.. _%Design-Spare-Capacity:
+.. _VD%-Incoming:
+
 .. hlist::
     :columns: 1
 
@@ -85,8 +89,12 @@ Electrical Calculations
 
         The bus duct transitions to pipe and wire, and the branch circuit length is determined from the distance between the Room of the bus duct, and the Room of the load.
 
+    * What is Load Capacity?
+        Load Capacity is a custom size modified by the designer.  Protective devices are selected based on the Load Capacity.  Conductors are also selected based the Load Capacity.
+        
+        For example, if a designer entered 401A as the Load Capacity of a 3-ø Distribution Board, then a 600AF, 450AT breaker would be selected, fed via 3#600 kcmils phase conductors.
+
     * What is % Design Spare Capacity?
         % Design Spare Capacity is an adjustment factor which is based on the Code Demand Load.  
 
-        For example, if a distribution board has a Code Demand Load of 25A, and has a % Design Spare Capacity of 20%, the Net Load on the distribution board will read 30A.
-
+        For example, if a distribution board has a Code Demand Load of 25A, and also has a % Design Spare Capacity of 20%, the Net Load on the distribution board will read 30A.
