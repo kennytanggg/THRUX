@@ -1,115 +1,134 @@
-GENERIC PROPERTIES,,
+GENERAL PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-NAME,EQUIP. PROPERTIES,EQUIPMENT NAME
-PRIORITY,EQUIP. PROPERTIES,"EQUIPMENT PRIORITY IS ASSIGNED HERE (NORMAL, EO1, EO2, LIFE SAFETY)"
-ROOM,EQUIP. PROPERTIES,EQUIPMENT LOCATION
-LOAD SIZE,LOAD PROPERTIES,"FOR A UTILITY, THE LOAD SIZE IS IRRELEVANT, IT IS A SOURCE OF POWER AND ALWAYS DISPLAYS 1A"
-LOAD UNIT,LOAD PROPERTIES,"CURRENT LOAD UNITS AVAILABLE ARE AMPS, KVA, HP.  EQUIPMENT SIZES ARE BASED UPON THE AMPERAGE CONVERSION OF THE LOAD UNIT"
-VOLTAGE,LOAD PROPERTIES,"VOLTAGE IS A READ ONLY PROPERTY IN MOST SITUATIONS.  IT IS SET AT THE SOURCE OF POWER, I.E. UTILITY, GENERATOR, OR TRANSFORMER.  CURRENT AVAILABLE VOLTAGES: 13.8kV, 13.2kV, 5400V, 4160V, 480V, 460V, 277V, 208V, 120V"
-POLES,LOAD PROPERTIES,"AVAILABLE POLES: 1,2,3,6,9"
-CONT. LOAD,LOAD READINGS,CONTINUOUS LOAD. ALL LOAD READINGS RETURNED IN KVA
-DIVERS. RECPT. LOAD,LOAD READINGS,DIVERSIFIED RECEPTACLE LOAD
-DIVERS. RESI. LOAD,LOAD READINGS,DIVERSIFIED RESIDENTIAL LOAD
-SPARE LOAD ALLOCATION,LOAD READINGS,BASED ON % SPARE LOAD VALUE
-NET LOAD,LOAD READINGS,"SUM OF CONTINUOUS LOAD, DIVERSIFIED RECEPTACLE LOAD, DIVERSIFIED RESIDENTIAL LOAD, AND SPARE LOAD ALLOCATION"
-LOAD CAPACITY,LOAD READINGS,KVA VALUE OF THE LOADSIZE (AMPS * VOLTAGE)
-PERCENT LOADED,LOAD READINGS,NET LOAD / LOAD CAPACITY
-VOLTAGE DROP OVERRIDE,NETWORK READINGS,FORCES THE APPLICATION TO DRAW 80% CAPACITY OF THE EQUIPMENT. INTENDED USE FOR PRELIMINARY STAGES OF DESIGN
-INFED VDP,NETWORK READINGS,VOLTS DROPPED PERCENTAGE AT THE LOADSIDE OF UPSTREAM EQUIPMENT
-NET VDP,NETWORK READINGS,TOTAL VOLTS DROPPED PERCENTAGE AT THE CURRENT NODE OF THE DISTRIBUTION SYSTEM
-INFED SC,NETWORK READINGS,AVAILABLE SHORT CIRCUIT CURRENT AT THE UPSTREAM NODE
-NET SC,NETWORK READINGS,TOTAL SHORT CIRCUIT CURRENT AT THE CURRENT NODE OF THE DISTRIBUTION SYSTEM
+Name,Equip.  General Properties,Equipment Name
+Room,Equip.  General Properties,Equipment location
+Priority,Equip.  General Properties,"Equipment Priority is assigned here (Normal, EO1, EO2, Life Safety)"
+Is Existing,Equip.  General Properties,Equipment is existing
+Is Future,Equip.  General Properties,Equipment is intended for future installation
+Load Capacity,Load Properties,"For a Utility, Load Capacity is irrelevant"
+Load Override,Load Properties,Intended to override load calculations
+Voltage,Load Properties,"Voltage is a read only property in most situations.  It is set at the source of power, i.e. utility, generator, or transformer.  Current available voltages: 13.8kV, 13.2kV, 5400V, 4160V, 480V, 460V, 277V, 208V, 120V"
+Poles,Load Properties,"Available Poles: 1,2,3,6,9"
+Power Factor,Load Properties,
+Custom Diversity Class,Load Readings,
+Diversity Position,Load Readings,
+CONT. LOAD Connected Load,Load Readings,CONTINUOUS LOAD. ALL LOAD READINGS RETURNED IN KVA
+DIVERS. RECPT. LOAD Code Demand Load,Load Readings,DIVERSIFIED RECEPTACLE LOAD
+Diversified Resi. Load,Load Readings,Diversified Residential Load
+% Design Spare Capacity,Load Readings,Supplemental design factor based on Connected Load
+Net Design Spare Capacity,Load Readings,Summation of downstream % Design Spare Capacity
+Net Load,Load Readings,"Sum of Continuous Load, Diversified Receptacle Load, Diversified Residential Load, and Design Spare Capacity"
+Max Capacity,Load Readings,kVA value of Load Capacity
+% Loaded,Load Readings,Connected Load / Load Capacity
+VD% Incoming,Network Readings,Volts Dropped Percentage at the loadside of upstream equipment
+VD% Net,Network Readings,Total volts dropped percentage at the current node of the distribution system
+SCC Incoming,Network Readings,Available short circuit current at the upstream node
+SCC Net,Network Readings,Total short circuit current at the current node of the distribution system
 CIRCUIT PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-COND. TYPE,CABLE PROPERTIES,"CONDUCTOR TYPE, CURRENT AVAILABLE TYPES: CU. AL."
-INS. TYPE,CABLE PROPERTIES,"INSULATION TYPE, CURRENT AVAILABLE TYPES: THHN, XHHW, RHH"
-IS NON-LINEAR,CABLE PROPERTIES,"NON-LINEAR LOADS CAUSE THE NEUTRAL CONDUCTOR TO CARRY CURRENT, WHICH INTRODUCES NOTCHES AND RINGING EFFECTS WHICH CAUSE DISTORTIONS IN THE SINUSOIDAL WAVEFORM"
-TEMP,CABLE PROPERTIES,"TEMPERATURE THRESHOLD, AVAILABLE TEMPERATURES: 60, 75, 90 DEGREES CELSIUS"
-PH. LEGS,CABLE PROPERTIES,"PHASE LEGS, DEFAULT 3 FOR 3-PHASE LOADS"
-PH. SIZE,CABLE PROPERTIES,PHASE SIZE
-NEUTRAL SIZE,CABLE PROPERTIES,NEUTRAL SIZE
-QTY NTL.,CABLE PROPERTIES,QUANTITY NEUTRAL CONDUCTORS
-QTY GNDS.,CABLE PROPERTIES,QUANTITY OF GROUND CONDUCTORS
-GND. SIZE,CABLE PROPERTIES,GROUND SIZE
-QTY SETS,CONDUIT PROPERTIES,QUANTITY OF SETS
-CDT. TYPE,CONDUIT PROPERTIES,"CONDUIT TYPE, AVAILABLE TYPES: EMT, RMC, PVC (SC. 40), PVC (SC. 80), LFMC"
-CDT. SIZE,CONDUIT PROPERTIES,CONDUIT SIZE
-RISER,ROUTING PROPERTIES,RISER AS DEFINED IN ARCHITECTURAL ELEMENTS
+# Sets,Cable Properties,Quantity of sets
+# Phase Legs,Cable Properties,"Phase legs, default is 3 for 3-phase loads"
+Phase Size,Cable Properties,Phase size
+# Neutrals,Cable Properties,Quantity of neutral conductors
+Neutral Size,Cable Properties,Neutral Size
+# Grounds,Cable Properties,Quantity of Ground Conductors
+Ground Size,Cable Properties,Ground Size
+Insulation Type,Cable Properties,"Insulation Type - Current Available Types: THHN, XHHW, RHH"
+Conductor Material,Cable Properties,Conductor Type - Current Available Types: CU. AL.
+Temperature Rating,Cable Properties,"Temperature Threshold - Current Available Temperatures: 60, 75, 90 Degrees Celsius"
+Is Non-Linear,Cable Properties,"Non-linear loads cause the neutral conductor to carry current, which introduces notchs and ringing effects which cause distortions in the sinusoidal waveform"
+Raceway Type,Conduit Properties,"Raceway Type - Current Available Types: EMT, RMC, PVC (SC. 40), PVC (SC. 80), LFMC"
+Raceway Size,Conduit Properties,Raceway Size
 NETWORK PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-+LENGTH,NETWORK PROPERTIES,ADDED LENGTH TO EQUIPMENT LOCATION.  THIS CAN BE MODIFIED VIA DEFAULT SETTINGS
-CALC. DIST.,NETWORK PROPERTIES,CALCULATED DISTANCE DEPENDENT ON ROOM LOCATIONS DEFINED IN ARCHITECTURAL ELEMENTS
-NET LENGTH,NETWORK PROPERTIES,SUM OF +LENGTH AND CALCULATED DISTANCE
-DRAW (A),NETWORK PROPERTIES,CURRENT DRAW OF THE ENTIRE DOWNSTREAM NETWORK FROM A NODE
-VD,NETWORK PROPERTIES,VOLTS DROPPED
-RUN VDP,NETWORK PROPERTIES,VOLTS DROPPED PERCENTAGE ACROSS SELECTED RUN
-INFED VDP,NETWORK PROPERTIES,VOLTS DROPPED PERCENTAGE AT THE LOADSIDE OF UPSTREAM EQUIPMENT
-VDP NET,NETWORK PROPERTIES,TOTAL VOLTS DROPPED PERCENTAGE AT THE CURRENT NODE OF THE DISTRIBUTION SYSTEM
-INFED SC,NETWORK PROPERTIES,AMOUNT OF AVAILABLE SHORT CIRCUIT CURRENT AT UPSTREAM NODE
-NET SC,NETWORK PROPERTIES,AMOUNT OF AVAILABLE SHORT CIRCUIT CURRENT AT CURRENT NODE
+Riser,Network Properties,Riser as defined in Architectural Elements
+Manual Added Length,Network Properties,Supplemental length to Calculated Length.  The default value can be modified in Settings
+Calc. Length,Network Properties,Calculated distance dependent on room locations defined in Architectural Elements
+Net Length,Network Properties,Sum of Manual Added Length and Calculated Length
+VD% Incoming,Network Properties,Volts dropped percentage at the loadside of upstream equipment
+VD% Run,Network Properties,Volts dropped percentage across selected run
+VD% Net,Network Properties,Total volts dropped percentage at the current nde of the distribution system
+Net Amperage,Network Properties,Current draw of the entire downstream network from a node
+SCC Incoming,Network Properties,Amount of available short circuit current at upstream node
+SCC Net,Network Properties,Amount of available short circuit current at current node
 UTILITY PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-AVAIL. SC,SOURCE PROPERTIES,AVAILABLE SHORT CIRCUIT CURRENT FROM THE UTILITY
-VOLT. DISTORTION,SOURCE PROPERTIES,VOLTAGE DISTORTION
+Available SCC (kA),Source Properties,Available short circuit current from the utility
+Voltage Distortion,Source Properties,Voltage distortion
 GENERATOR PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-SUB.T X(''),SOURCE PROPERTIES,"SUBTRANSIENT REACTANCE, USED TO DETERMINE THE AVAILABLE SHORT CIRCUIT CURRENT"
-NET SC,SOURCE PROPERTIES,RETURNS THE TOTAL SHORT CIRCUIT CURRENT AT THE CURRENT NODE OF THE DISTRIBUTION SYSTEM
+Subtransient Reactance,Source Properties,"Subtransient Reactance, used to determine the available short circuit current"
+SCC Net,Source Properties,Returns the total short circuit current at the current node of the distribution system
 DISTRIBUTION BOARD PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-COND. TYPE,BOARD OPTIONS,CONDUCTOR TYPE - THERE IS NO DEFAULT VALUE SELECTED?  CURRENT AVAILABLE TYPES: CU. AL.
-NEUTRAL BUS,BOARD OPTIONS,"BOOLEAN, DEFAULT VALIUE: TRUE"
-GROUND BUS,BOARD OPTIONS,"BOOLEAN, DEFAULT VALUE: TRUE"
-200% NEUT. BUS,BOARD OPTIONS,BOOLEAN
-ISO GROUND BUS,BOARD OPTIONS,BOOLEAN
-VOLT METER,BOARD ACCESSORIES,"BOOLEAN, DEFAULT VALUE: TRUE"
-SPD,BOARD ACCESSORIES,"BOOLEAN, DEFAULT VALUE: TRUE"
-POWER METER,BOARD ACCESSORIES,"BOOLEAN, DEFAULT VALUE: TRUE"
-DISTRIBUTION BOARD PROPERTIES,,
+MCB,Bus Structure,Main circuit breaker
+Neutral Bus,Bus Structure,"Boolean, Default value: True"
+200% Neutral Nus,Bus Structure,Boolean
+Ground Bus,Bus Structure,"Boolean, Default value: True"
+Isolated Ground Bus,Bus Structure,Boolean
+Top Fed,Construction,Boolean
+Flush Mount,Construction,Boolean
+Enclosure,Construction,Boolean
+Volt Meter,Accessories,"Boolean, Default value: True"
+SPD,Accessories,"Boolean, Default value: True"
+Power Meter,Accessories,"Boolean, Default value: True"
+PANELBOARD PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-QTY POLES,CONSTRUCTION OPTIONS,"DEFAULT VALUE: 42, AVAILABLE: 18,24,30,36,42"
-MCB,CONSTRUCTION OPTIONS,"BOOLEAN, DEFAULT: TRUE"
-NEUTRAL BUS,CONSTRUCTION OPTIONS,"BOOLEAN, DEFAULT: TRUE"
-GROUND BUS,CONSTRUCTION OPTIONS,"BOOLEAN, DEFAULT: TRUE"
-ISO GROUND BUS,CONSTRUCTION OPTIONS,BOOLEAN
-STAINLESS STEEL,CONSTRUCTION OPTIONS,BOOLEAN
-200% NEUTRAL BUS,CONSTRUCTION OPTIONS,BOOLEAN
-BOLT ON BREAKER,CONSTRUCTION OPTIONS,BOOLEAN
-FEED THROUGH,CONSTRUCTION OPTIONS,BOOLEAN
-SPLIT BUS METERING,CONSTRUCTION OPTIONS,BOOLEAN
-BRANCH CKT. METERING,CONSTRUCTION OPTIONS,BOOLEAN
-TOP FED,MOUNTING PROP.,"BOOLEAN, DEFAULT: TRUE"
-FLUSH MOUNT,MOUNTING PROP.,BOOLEAN
-EXISTING,MOUNTING PROP.,BOOLEAN
-ENCLOSURE,ENCLOSURE PROP,"DEFAULT VALUE: NEMA 1, NEMA 3, NEMA 3R, NEMA 4, NEMA 4X, NEMA 12"
-DOOR IN DOOR,ENCLOSURE PROP,"BOOLEAN, DEFAULT: TRUE"
+MCB,Bus Structure,"Boolean, Default: True"
+Neutral Bus,Bus Structure,"Boolean, Default: True"
+200% Neutral Bus,Bus Structure,Boolean
+Ground Bus,Bus Structure,"Boolean, Default: True"
+Isolated Ground Bus,Bus Structure,Boolean
+Bolt On Breaker,Bus Structure,Boolean
+Top Fed,Construction,"Boolean, Default: True"
+Flush Mount,Construction,Boolean
+Enclosure,Construction,"Available Types - NEMA 1, NEMA 3, NEMA 3R, NEMA 4, NEMA 4X, NEMA 12.  Default value: NEMA 1"
+Door in Door,Construction,"Boolean, Default: True"
+Stainless Steel,Construction,Boolean
+Feed Through,Construction,Boolean
+Volt Meter,Accessories,Boolean
+SPD,Accessories,Boolean
+Power Meter,Accessories,Boolean
+Branch Circuit Meter,Accessories,Boolean
+Split Bus Meter,Accessories,Boolean
 BUS DUCT PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-END BUS LOC,EQUIP. PROPERTIES,"END BUS DUCT LOCATION - REPRESENTS THE POINT OF TRANSITION FROM PIPE AND WIRE TO BUS DUCT, BUS DUCT LENGTHS ARE CALCULATED DEPENDENT ON THE BRANCH LOAD LOCATION, BRANCH LENGTHS ARE CALCULATED FROM THE BUS DUCT LOCATION TO THE BRANCH LOAD LOCATION"
-COND. TYPE,OPTIONS,"CONDUCTOR TYPE, AVAILABLE: CU, AL. DEFAULT VALUE: CU"
-NEUTRAL BUS,OPTIONS,"BOOLEAN, DEFAULT VALUE: TRUE"
-GROUND BUS,OPTIONS,BOOLEAN
-ISO GROUND BUS,OPTIONS,BOOLEAN
-VOLT METER,BOARD ACCESSORIES,"BOOLEAN, DEFAULT VALUE: TRUE"
-SPD,BOARD ACCESSORIES,"BOOLEAN, DEFAULT VALUE: TRUE"
-POWER METER,BOARD ACCESSORIES,"BOOLEAN, DEFAULT VALUE: TRUE"
+Room,Equip.  General Properties,Represents the point of transition from pipe and wire to bus duct.  Bus duct lengths are calculated depeneded on the branch load location.  Branch lengths are calculated from the bus duct location to the branch load locations
+Conductor Type,Bus Structure,"Conductor Type - Available Types: Cu, Al. Default Value: Cu"
+Neutral Bus,Bus Structure,"Boolean, Default value: True"
+200% Neutral Bus,Bus Structure,Boolean
+Ground Bus,Bus Structure,Boolean
+Isolated Ground Bus,Bus Structure,Boolean
+Top Fed,Bus Structure,"Boolean, Default value: True"
 MECHANICAL PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-VFD,MECH. PROPERTIES,BOOLEAN - VARIABLE FREQUENCY DRIVE
-QTY. MOTORS,MECH. PROPERTIES,QUANTITY OF MOTORS
-MOTOR,MECH. PROPERTIES,MOTOR SIZE + LOADUNIT
+VFD,Mechanical Properties,Boolean - Variable Frequency Drive
+Qty Motors,Mechanical Properties,Quantity of Motors
+MOTOR,Mechanical Properties,Motor Size + Load Unit
 XFMR PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-PRI. VOLTAGE,XFMR CONSTANTS,PRIMARY VOLTAGE
-SEC. VOLTAGE,XFMR CONSTANTS,SECONDARY VOLTAGE
-PRI. WINDING,XFMR CONSTANTS,"PRIMARY WINDING, AVAILABLE WINDINGS: DELTA, WYE"
-SEC. WINDING,XFMR CONSTANTS,"SECONDARY WINDING, AVAILABLE WINDINGS: DELTA, WYE"
-PRI. BIL,XFMR CONSTANTS,BASIC IMPULSE LEVEL - WHICH IS A METHOD WHICH EXPRESSING THE VOLTAGE SURGE THAT A TRANSFORMER WILL TOLERATE WITHOUT BREAKDOWN
-SEC. BIL,XFMR CONSTANTS,BASIC IMPULSE LEVEL - WHICH IS A METHOD WHICH EXPRESSING THE VOLTAGE SURGE THAT A TRANSFORMER WILL TOLERATE WITHOUT BREAKDOWN
-RECEPTACLE LOAD PROPERTIES,,
+Primary Winding,Construction,"Primary Winding - Available windings: Delta, Wye"
+Secondary Winding,Construction,"Secondary Winding - Available windings: Delta, Wye"
+Primary Voltage,Construction,Primary Voltage
+Secondary Voltage,Construction,Secondary Voltage
+Overload Rating,Construction,
+Percent Impedance,Construction,
+K Rating,Construction,
+XFMR Type,Construction,"Dry Type, Cast Coil Type, VPI, Liquid"
+Temperature Rise,Construction,
+Grounding Type,Construction,"Solid, Low Resistance, High Resistance"
+Insulation Rating,Construction,
+Primary BIL,Construction,Basic Impulse Level - A method expressing the voltage surge that a transformer will tolerate without breakdown
+Secondary BIL,Construction,Basic Impulse Level - A method expressing the voltage surge that a transformer will tolerate without breakdown
+ARCHITECTURAL LOAD PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-"BY ROOM, BY FLOOR, BY ARCH. PACKAGE, BY APT, BY APT. PACKAGE",PROPERTIES,ALLOWS USER TO EXTRACT ENTITIES FROM THE POWER DENSITY MODEL AS PACKAGES AND MODEL THEM AS LOADS
+"Room, Floor, Packages, Apartments, Apt. Packages",,Allows user to extract entities from the power density model as packages and model them as loads
 ATS PROPERTIES,,
 PROPERTY NAME,PROPERTY TYPE,DESCRIPTION
-PRI. SOURCE,ASSOC. PROPERTIES,PRIMARY SOURCE
-ALT. SOURCE,ASSOC. PROPERTIES,SECONDARY SOURCE
+Bypass Isolation,Bus Structure,Boolean
+Neutral Construction,Bus Structure,"Available Types - Solid, Switched, Overlapping"
+Neutral Bus,Bus Structure,"Boolean, Default value: True"
+200% Neutral Bus,Bus Structure,Boolean
+Ground Bus,Bus Structure,Boolean
+Isolated Ground Bus,Bus Structure,Boolean
+Static,Bus Structure,Boolean
