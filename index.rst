@@ -1,11 +1,11 @@
-New User?  Follow our :doc:`User Guide <docs/userguide/index-user_guide>` or see our :doc:`FAQ <docs/faq>` for help.
+New User?  Follow our :doc:`User Guide <source/userguide/index-user_guide>` or see our :doc:`FAQ <source/faq>` for help.
 
 .. toctree::
     :maxdepth: 3
     :caption: About THRUX
     :hidden:
 
-    docs/index-thrux_overview
+    source/index-thrux_overview
 
 **What is THRUX?**
 ==================
@@ -53,14 +53,14 @@ support@thrux.io
     :caption: User Guide
     :hidden:
 
-    docs/userguide/index-user_guide
+    source/userguide/index-user_guide
 
 .. toctree::
     :maxdepth: 2
     :caption: FAQ's
     :hidden:
 
-    docs/faq
+    source/faq
 
 * :ref:`genindex`
 * :ref:`search`
