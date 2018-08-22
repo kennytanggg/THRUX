@@ -1,4 +1,4 @@
-New User?  Follow our :doc:`User Guide <docs/userguide/index-user_guide>` or see our :doc:`FAQ <faq>` for help.
+New User?  Follow our :doc:`User Guide <docs/userguide/index-user_guide>` or see our :doc:`FAQ <docs/faq>` for help.
 
 .. toctree::
     :maxdepth: 3
@@ -60,7 +60,7 @@ support@thrux.io
     :caption: FAQ's
     :hidden:
 
-    faq
+    docs/faq
 
 * :ref:`genindex`
 * :ref:`search`

@@ -15,12 +15,12 @@ General
         Subscribe to our newsletter here:
 
     * How do I export my drawings to AutoCAD?
-        Open the :doc:`Schedules <docs/userguide/buildingelectricalmodel/schedules/index-schedules>` workspace, and open the schedules you would like to export.  Click the down arrow in the top right, then click Export to AutoCAD.
+        Open the :doc:`Schedules <userguide/buildingelectricalmodel/schedules/index-schedules>` workspace, and open the schedules you would like to export.  Click the down arrow in the top right, then click Export to AutoCAD.
 
         See :ref:`Exporting Schedules <Exporting-Schedules>` for more details.
 
     * I'm in the One-Line, how do I create equipment?
-        All equipment need to have a source of power, so make sure that a source like a Utility or Generator exists first.  Right-click inside the :doc:`One-Line <docs/userguide/buildingelectricalmodel/one-line/index-one-line>`, click Add Source, then choose Utility or Generator.
+        All equipment need to have a source of power, so make sure that a source like a Utility or Generator exists first.  Right-click inside the :doc:`One-Line <userguide/buildingelectricalmodel/one-line/index-one-line>`, click Add Source, then choose Utility or Generator.
 
         If the source is not yet defined, create an Unhosted Equipment.  Right-click inside the workspace, and then click Add Unhosted Equipment.  Use the wizard to create the equipment.
 
