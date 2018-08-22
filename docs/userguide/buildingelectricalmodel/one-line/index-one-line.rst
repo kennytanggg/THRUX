@@ -5,7 +5,7 @@ The One-Line depicts power flow in a top-to-bottom sequence.
 
 Utility functions like navigation, or additional viewing properties can be found on the workspace toolbox at the top.  
 
-Property Tags can be applied to assist with design or network visualization.
+:ref:`Property Tags <One-Line-Property_Tags>` can be applied to assist with design or network visualization.
 
 .. index:: How to Create a Source
 
@@ -134,6 +134,8 @@ Load Override
 
 Calculations are based on the Load Override value.  For example, if a designer wants to model a specific loading scenario between points in their distribution system, enter these loading values into Load Override.
 
+.. _One-Line-Property_Tags:
+
 Property Tags / Quick Views
 ===========================
 
@@ -180,8 +182,8 @@ To connect the secondary source of power, choose another distribution equipment.
 
 .. _One-Line-Bus_Duct:
 
-How do I create a bus duct?
-===========================
+Bus Duct
+========
 
 Select an equipment.  Then select Add Equipment to create a bus duct.  
 
