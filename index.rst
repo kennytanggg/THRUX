@@ -1,12 +1,5 @@
 New User?  Follow our :doc:`User Guide <source/userguide/index-user_guide>` or see our :doc:`FAQ <source/faq>` for help.
 
-.. toctree::
-    :maxdepth: 3
-    :caption: About THRUX
-    :hidden:
-
-    source/index-thrux_overview
-
 **What is THRUX?**
 ==================
 
