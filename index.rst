@@ -57,7 +57,9 @@ support@thrux.io
 
 555-555-5555
 
-************************************************************************************************************************
+***********
+User Guide
+***********
 
 .. toctree::
     :maxdepth: 2
@@ -65,6 +67,10 @@ support@thrux.io
     :hidden:
 
     source/userguide/index-user_guide
+
+**************************
+Frequently Asked Questions
+**************************
 
 .. toctree::
     :maxdepth: 2
