@@ -1,7 +1,8 @@
 New User?  Follow our :doc:`User Guide <source/userguide/index-user_guide>` or see our :doc:`FAQ <source/faq>` for help.
 
+******************
 **What is THRUX?**
-==================
+******************
 
 THRUX is a cloud-based design environment suite that fills the market gap of streamlined building design calculations, by bridging the gap between Engineers/Designers, Architects and Contractors, providing iterative, cost conscience design assistance.
 
@@ -41,12 +42,20 @@ support@thrux.io
 
 555-555-5555
 
+******************
+**User Guide**
+******************
+
 .. toctree::
     :maxdepth: 2
     :caption: User Guide
     :hidden:
 
     source/userguide/index-user_guide
+
+******************************
+**Frequently Asked Questions**
+******************************
 
 .. toctree::
     :maxdepth: 2
