@@ -34,7 +34,7 @@ General
 
         Copying an equipment will copy all of it's downstream equipment.  Select the equipment and use CTRL+C to copy.  Then select a new source and use CTRL+V to paste.
 
-        See :ref:`here <One-Line-Copying-Equipment>` for an example in the One-Line or :ref:`here <Schedules-Copying_Equipment>` for an example in the Schedules.
+        See :ref:`here <One-Line-Copying_Equipment>` for an example in the One-Line or :ref:`here <Schedules-Copying_Equipment>` for an example in the Schedules.
 
     * I've created a network, but I forgot to add a distribution board, or transfer switch, or some type of intermediate node.  How can I add this without deleting what I have?
         

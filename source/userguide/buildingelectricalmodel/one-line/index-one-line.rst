@@ -41,7 +41,7 @@ Click on the Utility and the Selection Dial will display a ring of options.  Cli
 
 .. image:: images/one-line-add_equipment.PNG
 
-Select an equipment type from the New dropdown menu.  Give any new equipment a name.  In this case, specify a :ref:`Load Capacity <Load-Capacity>`, and click Select.
+Select an equipment type from the New dropdown menu.  Give any new equipment a name.  In this case, specify a Load Capacity, and click Select.
 
 .. image:: images/one-line-add_dist_board.PNG
 
