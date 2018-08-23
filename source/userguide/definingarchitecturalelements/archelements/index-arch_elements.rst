@@ -1,3 +1,5 @@
+.. _Arch.-Elements:
+
 **Architectural Elements**
 ===================================
 

@@ -55,5 +55,4 @@ support@thrux.io
 
     source/faq
 
-* :ref:`genindex`
-* :ref:`search`
+Use our :ref:`Index <genindex>` or :ref:`Search <search>` for more information.

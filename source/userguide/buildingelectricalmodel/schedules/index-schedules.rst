@@ -19,7 +19,7 @@ To open a schedule, either use the Search (Magnifying glass) button, or use the 
 
 .. index:: How to Copy Equipment - Schedules
 
-.. _Schedules-Copying-Equipment:
+.. _Schedules-Copying_Equipment:
 
 Copy / Copy / Paste Circuits
 =============================
@@ -45,6 +45,8 @@ To delete equipment, select the circuit number.  Click Delete (Trash Symbol) or 
 
 .. image:: images/schedules-delete_equipment.PNG
 
+.. index:: I've manually modified the circuit elements.  Is there a way to reset to the code minimum values?
+
 Reset to Code Minimum
 =====================
 
@@ -64,6 +66,8 @@ Select a circuit number, and then click the Edit Properties (Gear Symbol) to ope
 .. index:: How to Delete Equipment - Schedules
 
 .. _Schedules-Rehosting:
+
+.. index:: Is there a way to reorder circuits on my distribution equipment?
 
 Rehosting Equipment / Reordering Circuits
 =========================================
@@ -92,6 +96,8 @@ The amount of protective devices a distribution board supports is proportional t
 
 .. image:: images/schedules-add_ocpd.PNG
 
+.. index:: Is there a way to navigate from the One-Line to another workspace like the Schedules?
+
 Navigate
 ========
 
@@ -114,7 +120,6 @@ Groups of schedules can be saved for a later viewing.  Open the schedules to gro
 .. image:: images/schedules-save_new_view.PNG
 
 .. index:: Exporting - Schedules
-
 
 .. _Exporting-Schedules:
 

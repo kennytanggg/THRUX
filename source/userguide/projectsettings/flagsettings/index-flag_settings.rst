@@ -3,14 +3,14 @@ Flag Settings
 
 THRUX provides code validated designs, and presents users with notifications for when their design is violating a code applicable to their project. 
 
-Certain Flags can be ignored, or have the visibility setting omitted.  Deselect to omit a flag.
+Certain flags can be ignored, or have the visibility setting omitted.  Deselect to omit a flag.
 
 Yellow Flags are warnings which are violations of applicable safety codes.Red Flags are program errors, such as an equipment without a name.
 
 Normal Priority Voltage Drop Threshold
 --------------------------------------
 
-A flag is raised when the VD Net % for a piece of distribution equipment exceeds a specified %.The default value is 2%.  The default threshold for end of line equipment is 5%.
+A flag is raised when the VD% Net for a piece of distribution equipment exceeds a specified %.  The default value is 2%.  The default threshold for end of line equipment is 5%.
 
 Non-Normal Priorty Voltage Drop Threshold
 -----------------------------------------
@@ -35,7 +35,7 @@ A flag is raised when an OCPD's Frame Size will not accommodate the associated l
 KAIC Undersized
 ---------------
 
-A flag is raised when the AIC rating of an equipment will not accommodate the Net SCC value. 
+A flag is raised when the AIC rating of an equipment will not accommodate the SCC Net value. 
 
 Sets Per
 --------
@@ -60,7 +60,7 @@ A flag is raised when the maximum fill ratio of the conductor arrangement is exc
 Voltage Drop Error
 ------------------
 
-A flag is raised when the Net VD % is exceeded. 
+A flag is raised when the VD% Net is exceeded. 
 
 Neutral Provision
 -----------------
@@ -75,7 +75,7 @@ A flag is raised when a piece of distribution equipment is overloaded.
 Equipment Voltage Drop Error
 ----------------------------
 
-A flag is raised when the Net VD % exceeds the threshold value.
+A flag is raised when the VD% Net exceeds the threshold value.
 
 
  

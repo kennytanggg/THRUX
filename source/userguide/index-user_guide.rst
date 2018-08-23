@@ -67,6 +67,8 @@ Explorers and other Utility tools can be found on the right side toolbar, also k
 
 .. image:: images/explorer-toolbar.PNG
 
+.. index:: Getting Started
+
 Getting Started
 ===============
 

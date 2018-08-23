@@ -9,7 +9,7 @@ Utility functions like navigation, or additional viewing properties can be found
 
 .. index:: How to Create a Source
 
-.. _One-Line-Adding-A-Source:
+.. _One-Line-Adding_A_Source:
 
 Add a Source
 ============
@@ -32,7 +32,7 @@ Or, Right-click inside the workspace, click Add Source, then click Utility Sourc
 
 .. image:: images/one-line-create_source_6.PNG
 
-.. _One-Line-Adding-Equipment:
+.. _One-Line-Adding_Equipment:
 
 Add Equipment
 =============
@@ -47,7 +47,7 @@ Select an equipment type from the New dropdown menu.  Give any new equipment a n
 
 .. index:: How to Copy Equipment - One-Line
 
-.. _One-Line-Copying-Equipment:
+.. _One-Line-Copying_Equipment:
 
 Copy / Paste Equipment
 ======================
@@ -129,6 +129,8 @@ Board Capacity
 
 Calculations are based on the capacity of the board.
 
+.. _One-Line-Load_Override:
+
 Load Override
 -------------
 
@@ -188,3 +190,23 @@ Bus Duct
 Select an equipment.  Then select Add Equipment to create a bus duct.  
 
 .. image:: images/one-line-bus_duct_1.PNG
+
+.. _One-Line-SCC:
+
+Short Circuit Current - SCC
+===========================
+
+Select the Utility source.  Under the "Miscellaneous" property grouping, enter the value under Available SCC (kA).
+
+.. image:: images/one-line-SCC.PNG
+
+.. _One-Line-Tap:
+
+Bus Node
+========
+
+To model a tap, create a Bus Node in between the source and the load.
+
+.. image:: images/one-line-tap_1.PNG
+
+.. image:: images/one-line-tap_2.PNG
