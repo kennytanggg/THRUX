@@ -13,6 +13,15 @@ THRUX is a design environment aimed to unite engineering tools of the constructi
 
 THRUX is a cloud-based design environment suite that fills the market gap of streamlined building design calculations, by bridging the gap between Engineers/Designers, Architects and Contractors, providing iterative, cost conscience design assistance.
 
+.. topic:: What is THRUX?
+    
+    THRUX is a cloud-based design environment suite that fills the market gap of streamlined building design calculations, by bridging the gap between Engineers/Designers, Architects and Contractors, providing iterative, cost conscience design assistance.
+
+.. sidebar:: Frequently Asked Questions
+        :subtitle: Fandango
+
+    source/userguide/index-user_guide
+
 **New User?**
 
 Follow our :doc:`User Guide <source/userguide/index-user_guide>` or see our :doc:`FAQ <source/faq>` for help.
@@ -33,6 +42,10 @@ Professional
 Insert Professional Package Content Here.
 
 **Installation**
+
+THRUX is a cloud based application, and automatically updates each time it is opened.
+
+See the install link below:
 
 https://clickonce.blob.core.windows.net/edaxinstall/setup.exe
 

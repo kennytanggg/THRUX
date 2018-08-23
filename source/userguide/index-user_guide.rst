@@ -4,6 +4,7 @@ General Navigation Overview
 The left side toolbar is also known as the Workspace Toolbar.  The grey shading indicates an open workspace, while a purple shading indicates an open and active Workspace.  
 
 .. image:: images/workspace-toolbar.PNG
+    :align: center
 
 Workspaces can be hosted on different windows by dragging them outside of THRUX's main window.  
 
