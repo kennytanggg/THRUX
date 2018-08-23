@@ -11,6 +11,7 @@ Workspaces can be hosted on different windows by dragging them outside of THRUX'
 Bring these windows back into THRUX by clicking Dock in the top right.
 
 .. image:: images/workspace-toolbar-dock.PNG
+    :align: center
 
 #####################
 Electrical Workspaces
@@ -19,6 +20,7 @@ Electrical Workspaces
 The top 3 workspaces, :doc:`buildingelectricalmodel/one-line/index-one-line`, :doc:`buildingelectricalmodel/riser/index-riser`, and :doc:`buildingelectricalmodel/schedules/index-schedules`, are the main electrical workspaces to build your distribution system.
 
 .. image:: images/workspace-toolbar-electrical.PNG
+    :align: center
 
 ########################
 Architectural Workspaces
@@ -27,6 +29,7 @@ Architectural Workspaces
 The next 2 workspaces, :doc:`definingarchitecturalelements/archelements/index-arch_elements`, and :ref:`Floor Plans <Floor-Plans-Overview>`, are mainly used to create the spatial elements which engulf or provide the structure to support your distribution system.  These spatial elements will drive distances between equipment, which effect electrical calculations.
 
 .. image:: images/workspace-toolbar-architectural.PNG
+    :align: center
 
 #######
 Studies
@@ -35,6 +38,7 @@ Studies
 The next workspace, :doc:`utilityworkspaces/studies/index-studies`, is used as a reporting mechanism for different study types your design.
 
 .. image:: images/workspace-toolbar-studies.PNG
+    :align: center
 
 #######
 Pricing
@@ -43,6 +47,7 @@ Pricing
 :doc:`utilityworkspaces/pricingreport/index-pricing_report` and :doc:`utilityworkspaces/equipmentrates/index-equipment_rates`, allow you to analyze the price of your design, and customize costs of materials and labor rates.
 
 .. image:: images/workspace-toolbar-pricing.PNG
+    :align: center
 
 #####
 Codes
@@ -51,6 +56,7 @@ Codes
 :doc:`utilityworkspaces/codesreference/index-codes_reference` allows designers to view various reference tables, or industry standards.
 
 .. image:: images/workspace-toolbar-codes_reference.PNG
+    :align: center
 
 ###############
 Change Tracking
@@ -59,6 +65,7 @@ Change Tracking
 :doc:`utilityworkspaces/changetracking/index-change_tracking` allows designers to compare branches of issuances.  Results can be exported to an Excel document, by using Copy/Paste.
 
 .. image:: images/workspace-toolbar-change_tracking.PNG
+    :align: center
 
 ################
 Explorer Toolbar
@@ -67,6 +74,7 @@ Explorer Toolbar
 Explorers and other Utility tools can be found on the right side toolbar, also known as the :doc:`Explorer Toolbar <explorersandutilitytools/index-explorers_and_utility_tools>`.
 
 .. image:: images/explorer-toolbar.PNG
+    :align: center
 
 .. index:: Getting Started
 

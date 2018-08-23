@@ -14,6 +14,7 @@ X Grid / Y Grid
 X Grid and Y Grid components are used to establish a location for Rooms.  Equipment are placed inside Rooms, which are effected by point to point calculations.
 
 .. image:: images/XGrid_YGrid.PNG
+    :align: center
 
 Floor
 -----
@@ -21,6 +22,7 @@ Floor
 Floors are used for power density calculations, and to also house rooms.  
 
 .. image:: images/Floor.PNG
+    :align: center
 
 Space Type
 ----------
@@ -32,6 +34,7 @@ For example, engineers perform load massing calculations in order to size their 
 A variety of Space Types allows the engineer to study power density requirements of the project.
 
 .. image:: images/Space_Type.PNG
+    :align: center
 
 Room
 -----
@@ -39,6 +42,7 @@ Room
 Rooms are used to establish locations for equipment.  Based on these locations, engineers can perform their point to point calculations.  Rooms can also be packaged to create custom load packages.
 
 .. image:: images/Room.PNG
+    :align: center
 
 Riser
 -----
@@ -46,6 +50,7 @@ Riser
 A Riser is an entity which is used to offset conduit routes.  By default, the length of a conduit route is determined by the the distance between the source and the load.  However, engineers are often allocated Risers, or shaft space, to house their conduits, or feeders.  The conduits are routed from their source, through the Riser, and terminate at the load.
 
 .. image:: images/Riser.PNG
+    :align: center
 
 Arch. Package
 -------------
@@ -55,6 +60,7 @@ Architectural Packages are used to model the load, or power density, of a group 
 For example, if a project contained a group of floors, and the designer wanted to feed that group via a specific distribution board, the designer can create a package, and attach that package to a distribution board.
 
 .. image:: images/Architectural_Package.PNG
+    :align: center
 
 Appliance
 ---------
@@ -62,6 +68,7 @@ Appliance
 Appliances are used to calculate the load of residential projects.  Appliances are assigned to a Unit Type.
 
 .. image:: images/Appliance.PNG
+    :align: center
 
 Unit Type
 ---------
@@ -69,6 +76,7 @@ Unit Type
 Unit Types are used to group Appliances together, in order to calculate the load of residential projects.  A Unit Type is assigned to an Apartment.
 
 .. image:: images/Unit_Type.PNG
+    :align: center
 
 Apartment
 ---------
@@ -76,6 +84,7 @@ Apartment
 An Apartment contains a Unit Type.  It also contains information regarding its location, and loading information.  A group of Apartments can make up an Apt. Package, or Apartment Package.
 
 .. image:: images/Apartment.PNG
+    :align: center
 
 Apt. Package
 ------------
@@ -83,6 +92,7 @@ Apt. Package
 Apt. Package, or Apartment Packages are used to group Apartments together in order to calculate a load.  
 
 .. image:: images/Apartment_Package.PNG
+    :align: center
 
 Load Allocation
 ---------------
@@ -92,6 +102,7 @@ Load Allocations are used to supplement the Architectural Packages.
 A designer may want to account for a load which only occurs on floors of a specific Space Type.  For example, if a designer wanted to account for a 20 HP motor on every Office Floor, they would need to create a new Load Allocation.  Then, they would filter that Allocation by the Floor Space Type, and add it to an Architectural Package.
 
 .. image:: images/Load_Allocation.PNG
+    :align: center
 
 Diversification
 ---------------
@@ -105,3 +116,4 @@ A Distribution Diversity is a factor applied to Distribution Level loads.
 An End of Line Diversity is a factor applied to End of Line Loads.
 
 .. image:: images/Diversification.PNG
+    :align: center

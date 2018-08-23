@@ -86,6 +86,7 @@ A user can lock a selection which will prevent elements from being modified.  Se
 .. image:: images/schedules-lock_unlock_1.PNG
 
 .. image:: images/schedules-lock_unlock_2.PNG
+    :align: center
 
 .. index:: Why Can't I Add Equipment to this Distribution Board?
 
@@ -95,6 +96,7 @@ Adding OCPDs
 The amount of protective devices a distribution board supports is proportional to its physical installation.  Equipment can not be added to the distribution board unless there is space alotted.  To add a protective device, click Add OCPD.
 
 .. image:: images/schedules-add_ocpd.PNG
+    :align: center
 
 .. index:: Is there a way to navigate from the One-Line to another workspace like the Schedules?
 
@@ -104,6 +106,7 @@ Navigate
 Right-click on a circuit element to open an additional utility menu.  A designer can navigate to other schedules or to the One-Line by selecting Scope to Schedule, or Scope to One-Line.
 
 .. image:: images/schedules-navigate.PNG
+    :align: center
 
 Converting Breaker/Switch and Fuse
 ==================================
@@ -111,6 +114,7 @@ Converting Breaker/Switch and Fuse
 By default, Distribution Boards use breakers as their protective devices, while Switchboards use switch and fuse combinations.  To convert a board's protective devices, click the Settings (Gear Symbol) button in the top left of the schedule.  Then under Change Schedule Type, select Convert to Switch/Fuse.
 
 .. image:: images/schedules-ocpd_conversion.PNG
+    :align: center
 
 Schedule Views
 ==============
@@ -118,6 +122,7 @@ Schedule Views
 Groups of schedules can be saved for a later viewing.  Open the schedules to group, then click Save As New View, and enter a name.  Return to this view at any time.
 
 .. image:: images/schedules-save_new_view.PNG
+    :align: center
 
 .. index:: Exporting - Schedules
 
@@ -129,4 +134,5 @@ Exporting
 To export the open schedules, click Export (Down Arrow) button in the top right of the workspace.  Then choose Excel or AutoCAD to export to .csv or .dwg.
 
 .. image:: images/schedules-exporting.PNG
+    :align: center
 

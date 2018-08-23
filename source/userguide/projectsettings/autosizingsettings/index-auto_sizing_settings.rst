@@ -5,6 +5,7 @@ THRUX will calculate equipment sizes automatically, but certain parameters can b
 For example, if the designer would like a conduit size to remain constant or intentionally oversized to account for shaft space, deselect Conduit Size shown below.
 
 .. image:: images/auto_sizing_settings.PNG
+    :align: center
 
 Frame Size
 ----------

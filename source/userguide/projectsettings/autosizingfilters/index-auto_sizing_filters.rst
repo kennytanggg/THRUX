@@ -8,6 +8,7 @@ For example, if 400 kCMils are logistically not available from contractors in th
 Furthermore, users can also omit specific conduit sizes or breaker sizes from their design.
 
 .. image:: images/auto_sizing_filters.PNG
+    :align: center
 
 Cables
 ------
