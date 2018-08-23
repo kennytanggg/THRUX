@@ -1,5 +1,6 @@
+************
 Introduction
-============
+************
 
 In order to deliver the best possible design, or construct the best building, Owners and Architects explore multitudes of design options, while Engineers are tasked with ensuring each design is safe and stable.  There is an increasing demand for professionals to rapidly respond to design changes, while still preserving quality.
 
@@ -8,17 +9,15 @@ Engineering tools are scattered from paper, to spreadsheets, to analysis softwar
 THRUX is a design environment aimed to unite engineering tools of the construction industry to provide a consistent, transparent, and flexible design.
 
 **What is THRUX?**
-"""""""""""""""""""
+==================
 
 THRUX is a cloud-based design environment suite that fills the market gap of streamlined building design calculations, by bridging the gap between Engineers/Designers, Architects and Contractors, providing iterative, cost conscience design assistance.
 
-New User?  
-"""""""""
+**New User?**
 
 Follow our :doc:`User Guide <source/userguide/index-user_guide>` or see our :doc:`FAQ <source/faq>` for help.
 
-Licensing
-"""""""""
+**Licensing**
 
 THRUX is available as a trial license, or as a professional license.
 
@@ -33,13 +32,11 @@ Professional
 
 Insert Professional Package Content Here.
 
-Installation
-""""""""""""
+**Installation**
 
 https://clickonce.blob.core.windows.net/edaxinstall/setup.exe
 
-Contact Us / Support
-""""""""""""""""""""
+**Contact Us / Support**
 
 If you would like to request a demonstration, or are having any technical issues, contact us at:
 
@@ -47,9 +44,7 @@ support@thrux.io
 
 555-555-5555
 
-
-:doc:`User Guide <source/userguide/index-user_guide>`
-=========================================================
+************************************************************************************************************************
 
 .. toctree::
     :maxdepth: 2
@@ -57,9 +52,6 @@ support@thrux.io
     :hidden:
 
     source/userguide/index-user_guide
-
-:doc:`FAQ <source/faq>`
-===========================
 
 .. toctree::
     :maxdepth: 2
