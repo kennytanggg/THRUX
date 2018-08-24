@@ -5,11 +5,12 @@
 The Riser workspace is an elevational representation of the distribution system.  It is used to depict wiring routes as they disperse through a vertically scaling project.
 
 .. image:: images/riser-overview.PNG
-
+    :align: center
 
 Note that the interactions between the Riser, One-Line, and Schedules are similar.
 
 .. image:: images/riser-selection.PNG
+    :align: center
 
 Navigation Overview
 ===================
@@ -20,14 +21,17 @@ Floor Navigator
 On the left, is a Floor navigator.  It will track and navigate to the selected floor, highlighted in cyan.  
 
 .. image:: images/riser-floor_navigator.PNG
+    :align: center
 
 Floors are denoted by the dashed cyan regions, while Rooms are denoted by the solid cyan regions.
 
 .. image:: images/riser-floor_1.PNG
+    :align: center
 
 Use the floor grip on the left of each floor, highlighted white, to adjust the height and region of the floor.
 
 .. image:: images/riser-floor_grip.PNG
+    :align: center
 
 Riser Toolbox
 -------------
