@@ -57,7 +57,9 @@ Arch. Package
 
 Architectural Packages are used to model the load, or power density, of a group of architectural elements.  
 
-For example, if a project contained a group of floors, and the designer wanted to feed that group via a specific distribution board, the designer can create a package, and attach that package to a distribution board.
+For example, a group of floors could each have their SpaceType designated as Office, which has a specific power density.  This group of floors can be packaged as a load, and fed from a distribution equipment.
+
+To create a Load Package, within Architectural Elements, select a group of Floors, or Rooms.  In the orange textbox, enter a name for the Load Package, and then click the (+) button.  To view your Load Packages, click the Arch. Package tab.  These packages can be attached to any distribution board in the network.
 
 .. image:: images/Architectural_Package.PNG
     :align: center
@@ -97,7 +99,7 @@ Apt. Package, or Apartment Packages are used to group Apartments together in ord
 Load Allocation
 ---------------
 
-Load Allocations are used to supplement the Architectural Packages.
+Load Allocations are used to supplement the Architectural Packages.  In addition to floor or room power densities, power can be allocated to specific floors.
 
 A designer may want to account for a load which only occurs on floors of a specific Space Type.  For example, if a designer wanted to account for a 20 HP motor on every Office Floor, they would need to create a new Load Allocation.  Then, they would filter that Allocation by the Floor Space Type, and add it to an Architectural Package.
 

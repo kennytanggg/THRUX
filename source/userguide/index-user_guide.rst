@@ -26,7 +26,7 @@ The top 3 workspaces, :doc:`buildingelectricalmodel/one-line/index-one-line`, :d
 Architectural Workspaces
 ########################
 
-The next 2 workspaces, :doc:`definingarchitecturalelements/archelements/index-arch_elements`, and :ref:`Floor Plans <Floor-Plans-Overview>`, are mainly used to create the spatial elements which engulf or provide the structure to support your distribution system.  These spatial elements will drive distances between equipment, which effect electrical calculations.
+The next 2 workspaces, :doc:`definingarchitecturalelements/archelements/index-arch-elements`, and :ref:`Floor Plans <Floor-Plans-Overview>`, are mainly used to create the spatial elements which engulf or provide the structure to support your distribution system.  These spatial elements will drive distances between equipment, which effect electrical calculations.
 
 .. image:: images/workspace-toolbar-architectural.PNG
     :align: center

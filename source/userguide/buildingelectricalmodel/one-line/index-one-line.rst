@@ -54,7 +54,6 @@ Select an equipment type from the New dropdown menu.  Give any new equipment a n
     :align: center
 
 .. index:: How to Copy Equipment - One-Line
-    :align: center
 
 .. _One-Line-Copying_Equipment:
 

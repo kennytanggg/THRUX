@@ -13,7 +13,7 @@ Open the Cascade Monitor and change the Design Assistance level to be Limited.
 .. image:: images/cascade_monitor_2.PNG
     :align: center
 
-See the example below which shows the impacts, or cascasing effects, of a decrease in the Load Capacity of a distribution board. 
+See the example below which shows the impacts, or cascading effects, of a decrease in the Load Capacity of a distribution board. 
 
 .. image:: images/cascade_monitor_3.PNG
     :align: center

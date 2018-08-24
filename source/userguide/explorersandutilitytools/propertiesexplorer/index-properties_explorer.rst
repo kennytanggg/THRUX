@@ -15,5 +15,7 @@ The Properties Explorer displays the various properties associated with the curr
 .. image:: images/properties_explorer_3.PNG
     :align: center
 
+For more property definitions and information, see below:
+
 .. csv-table:: Properties Explorer
    :file: Properties_Explorer.csv

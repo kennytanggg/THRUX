@@ -51,6 +51,10 @@ General
 
         See :ref:`here <One-Line-Transfer_Switch>` for more details.  This is also available in the :doc:`Schedules <userguide/buildingelectricalmodel/schedules/index-schedules>` workspace.
 
+    * I've created my distribution network, but I haven't assigned any Rooms yet.  Is there a way to move my equipment into Rooms?
+
+        See :ref:`here <Floor-Plans-Move_Equipment>` for an example in the Floor Plans.
+        
 **********************************************************************************************************************************************************************************************
 
 #############

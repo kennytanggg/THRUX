@@ -6,7 +6,7 @@ Use Studies to view Voltage Drop, Short Circuit, and Loading reports.
 Voltage Drop
 ------------
 
-The Voltage Drop study presents the Net VD% at all points of distribution equipment with all downstream branch networks.
+The Voltage Drop study presents the VD% Net at all points of distribution equipment with all downstream branch networks.
 
 .. image:: images/voltage_drop.PNG
     :align: center
