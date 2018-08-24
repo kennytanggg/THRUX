@@ -47,7 +47,7 @@ User Guide
 ==========
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :caption: User Guide
     :hidden:
 
@@ -57,7 +57,7 @@ Frequently Asked Questions
 ==========================
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :caption: FAQ's
     :hidden:
 

@@ -74,3 +74,28 @@ In addition, if the conduits are being routed through a riser shaft, assign a Ri
 
 .. image:: images/conduit_lengths_3.PNG
     :align: center
+
+.. _Floor-Plans-Move_Equipment:
+
+Moving Equipment
+----------------
+
+Move Equipment is intended for designers to quickly place equipment in Rooms.  
+
+.. image:: images/move-equipment_1.PNG
+    :align: center
+
+There are two collections of Equipment: Orphaned Equipment and Hosted Equipment.  Orphaned Equipment do not have a Room assigned to them.  Hosted Equipment are Rooms.
+
+.. image:: images/move-equipment_2.PNG
+    :align: center
+
+Select the Equipment you would like to move.  Drag and drop it in a Room location.
+
+.. image:: images/move-equipment_3.PNG
+    :align: center
+
+The Room indicator will notify the designer when the equipment is added.
+
+.. image:: images/move-equipment_4.PNG
+    :align: center
