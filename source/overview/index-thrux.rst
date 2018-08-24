@@ -7,27 +7,35 @@ Engineering tools are scattered from paper, to spreadsheets, to analysis softwar
 
 THRUX is a design environment aimed to unite engineering tools of the construction industry to provide a consistent, transparent, and flexible design.
 
-**What is THRUX?**
+What is THRUX?
+--------------
 
 THRUX is a cloud-based design environment suite that fills the market gap of streamlined building design calculations, by bridging the gap between Engineers/Designers, Architects and Contractors, providing iterative, cost conscience design assistance.
 
-**New User?**
+New User?
+--------------
 
 Follow our :ref:`User Guide <User-Guide>` or see our :ref:`FAQ <Frequently-Asked-Questions>` for help.
 
-**Licensing**
+Licensing
+--------------
 
 THRUX is available as a trial license, or as a professional license.
 
-- Trial
+######
+Trial
+######
 
-    Insert Trial Package Content Here.
+  Insert Trial Package Content Here.
 
-- Professional
+############
+Professional
+############
 
-    Insert Professional Package Content Here.
+  Insert Professional Package Content Here.
 
-**Installation**
+Installation
+------------
 
 THRUX is a cloud based application, and automatically updates each time it is opened.
 
@@ -35,7 +43,8 @@ See the link below:
 
 https://clickonce.blob.core.windows.net/edaxinstall/setup.exe
 
-**Contact Us / Support**
+Contact Us / Support
+--------------------
 
 If you would like to request a demonstration, or are having any technical issues, contact us at:
 
