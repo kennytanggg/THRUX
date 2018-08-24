@@ -1,7 +1,7 @@
 .. _Arch.-Elements:
 
-**Architectural Elements**
-==========================
+Architectural Elements
+======================
 
 X Grid / Y Grid
 ---------------

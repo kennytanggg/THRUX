@@ -1,7 +1,7 @@
 .. _User-Guide:
 
-General Navigation Overview
-===========================
+**General Navigation Overview**
+===============================
 
 The left side toolbar is also known as the Workspace Toolbar.  The grey shading indicates an open workspace, while a purple shading indicates an open and active Workspace.  
 
@@ -80,8 +80,8 @@ Explorers and other Utility tools can be found on the right side toolbar, also k
 
 .. index:: Getting Started
 
-Getting Started
-===============
+**Getting Started**
+===================
 
 .. toctree::
     :maxdepth: 3

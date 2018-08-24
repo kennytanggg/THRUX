@@ -1,5 +1,5 @@
-**Defining Architectural Elements**
-===================================
+Defining Architectural Elements
+===============================
 
 The :doc:`archelements/index-arch-elements` are the spacial elements which give engineers a base for their point to point calculations.  
 
@@ -14,8 +14,8 @@ These elements can be created in the Floor Plans workspace, or the Architectural
 
 .. _Floor-Plans-Overview:
 
-**Floor Plans**
----------------
+Floor Plans
+-----------
 
 .. toctree::
     :maxdepth: 2

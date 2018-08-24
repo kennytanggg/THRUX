@@ -1,5 +1,5 @@
-**Utility Workspaces**
-======================
+Utility Workspaces
+==================
 
 .. toctree::
     :maxdepth: 2

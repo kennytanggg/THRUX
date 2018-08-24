@@ -1,10 +1,10 @@
-**Creating a New Project**
-==========================
+Creating a New Project
+======================
 
 Click the Home button, and then the Add (+) button to create a new project.
 
-**Project Settings**
---------------------
+Project Settings
+----------------
 Project Settings are a set of customizable parameters to base your design.
 
 .. toctree::

@@ -1,5 +1,5 @@
-**Explorers / Utility Design Tools**
-====================================
+Explorers / Utility Design Tools
+================================
 
 The right side of THRUX is generally where the explorers or utility functions are located.  Explorers can be pinned to always be visible, while other explorers are being used.
 
