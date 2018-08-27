@@ -11,7 +11,7 @@ User Guide
 ==========
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
     :caption: User Guide
 
     userguide/index-user_guide
@@ -20,7 +20,7 @@ Frequently Asked Questions
 ==========================
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
     :caption: FAQ's
 
     faq

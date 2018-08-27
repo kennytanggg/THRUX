@@ -94,6 +94,14 @@ Architectural
 Electrical Calculations
 #######################
 
+.. glossary::
+
+    Load Capacity
+        Load Capacity is a custom size modified by the designer.  Protective devices are selected based on the Load Capacity.  Conductors are also selected based the Load Capacity.
+
+    % Design Spare Capacity
+        % Design Spare Capacity is an adjustment factor which is based on the Code Demand Load.  
+
 .. hlist::
     :columns: 1
 
@@ -137,3 +145,13 @@ Electrical Calculations
         To model a tap, create a Bus Node in between the source and the load.
 
         See :ref:`here <One-Line-Tap>` for an example.
+
+How do I model a tap?
+---------------------
+
+a tap has no name
+
+How do I model a tap?
+---------------------
+
+a tap has no name
