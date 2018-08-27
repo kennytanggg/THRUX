@@ -11,7 +11,6 @@ User Guide
 ==========
 
 .. toctree::
-    :maxdepth: 4
     :caption: User Guide
 
     userguide/index-user_guide
