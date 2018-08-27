@@ -4,89 +4,95 @@
 General
 #######
 
-.. hlist::
-    :columns: 1
+Is THRUX compatible with Revit?
+-------------------------------
 
-    * Is THRUX compatible with Revit?
+Coming soon.
 
-        Coming soon.
+How do I see what's included in each update?
+--------------------------------------------
 
-    * How do I see what's included in each update?
+Subscribe to our newsletter here:
 
-        Subscribe to our newsletter here:
+How do I export my drawings to AutoCAD?
+---------------------------------------
 
-    * How do I export my drawings to AutoCAD?
+Open the :doc:`Schedules <userguide/buildingelectricalmodel/schedules/index-schedules>` workspace, and open the schedules you would like to export.  Click the down arrow in the top right, then click Export to AutoCAD.
 
-        Open the :doc:`Schedules <userguide/buildingelectricalmodel/schedules/index-schedules>` workspace, and open the schedules you would like to export.  Click the down arrow in the top right, then click Export to AutoCAD.
+See :ref:`Exporting Schedules <Exporting-Schedules>` for more details.
 
-        See :ref:`Exporting Schedules <Exporting-Schedules>` for more details.
+I'm in the One-Line, how do I create equipment?
+-----------------------------------------------
 
-    * I'm in the One-Line, how do I create equipment?
+All equipment need to have a source of power, so make sure that a source like a Utility or Generator exists first.  Right-click inside the :doc:`One-Line <userguide/buildingelectricalmodel/one-line/index-one-line>`, click Add Source, then choose Utility or Generator.
 
-        All equipment need to have a source of power, so make sure that a source like a Utility or Generator exists first.  Right-click inside the :doc:`One-Line <userguide/buildingelectricalmodel/one-line/index-one-line>`, click Add Source, then choose Utility or Generator.
+If the source is not yet defined, create an Unhosted Equipment.  Right-click inside the workspace, and then click Add Unhosted Equipment.  Use the wizard to create the equipment.
 
-        If the source is not yet defined, create an Unhosted Equipment.  Right-click inside the workspace, and then click Add Unhosted Equipment.  Use the wizard to create the equipment.
+See :ref:`Adding a Source <One-Line-Adding_A_Source>` or :ref:`Adding Equipment <One-Line-Adding_Equipment>` for examples.
 
-        See :ref:`Adding a Source <One-Line-Adding_A_Source>` or :ref:`Adding Equipment <One-Line-Adding_Equipment>` for examples.
+Is there a way to create groups of equipment?
+---------------------------------------------
 
-    * Is there a way to create groups of equipment?
+Copying an equipment will copy all of it's downstream equipment.  Select the equipment and use CTRL+C to copy.  Then select a new source and use CTRL+V to paste.
 
-        Copying an equipment will copy all of it's downstream equipment.  Select the equipment and use CTRL+C to copy.  Then select a new source and use CTRL+V to paste.
+See :ref:`here <One-Line-Copying_Equipment>` for an example in the One-Line or :ref:`here <Schedules-Copying_Equipment>` for an example in the Schedules.
 
-        See :ref:`here <One-Line-Copying_Equipment>` for an example in the One-Line or :ref:`here <Schedules-Copying_Equipment>` for an example in the Schedules.
+I've created a network, but I forgot to add a distribution board, or transfer switch, or some type of intermediate node.  How can I add this without deleting what I have?
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    * I've created a network, but I forgot to add a distribution board, or transfer switch, or some type of intermediate node.  How can I add this without deleting what I have?
-        
-        You have the ability to rehost circuits by dragging and dropping them from one source to another.  Simply rehost a section of your network to another source.  Then add your equipment, and reattach or feed your network from your equipment.
+You have the ability to rehost circuits by dragging and dropping them from one source to another.  Simply rehost a section of your network to another source.  Then add your equipment, and reattach or feed your network from your equipment.
 
-        See :ref:`here <One-Line-Rehosting>` for an example in the One-Line or :ref:`here <Schedules-Rehosting>` for an example in the Schedules.
+See :ref:`here <One-Line-Rehosting>` for an example in the One-Line or :ref:`here <Schedules-Rehosting>` for an example in the Schedules.
 
-    * How do I create a bus duct?
-        
-        Select an equipment.  Then select Add Equipment to create a bus duct.  
+How do I create a bus duct?
+---------------------------
 
-        See :ref:`here <One-Line-Bus_Duct>` for an example in the One-Line.
-    
-    * How do I connect a transfer switch?
-        
-        After a transfer switch is created, connect it's sources by selecting Add Equipment, and then click the Existing dropdown to select the transfer switch.
+Select an equipment.  Then select Add Equipment to create a bus duct.  
 
-        See :ref:`here <One-Line-Transfer_Switch>` for more details.  This is also available in the :doc:`Schedules <userguide/buildingelectricalmodel/schedules/index-schedules>` workspace.
+See :ref:`here <One-Line-Bus_Duct>` for an example in the One-Line.
 
-    * I've created my distribution network, but I haven't assigned any Rooms yet.  Is there a way to move my equipment into Rooms?
+How do I connect a transfer switch?
+-----------------------------------
 
-        See :ref:`here <Floor-Plans-Move_Equipment>` for an example in the Floor Plans.
-        
+After a transfer switch is created, connect it's sources by selecting Add Equipment, and then click the Existing dropdown to select the transfer switch.
+
+See :ref:`here <One-Line-Transfer_Switch>` for more details.  This is also available in the :doc:`Schedules <userguide/buildingelectricalmodel/schedules/index-schedules>` workspace.
+
+I've created my distribution network, but I haven't assigned any Rooms yet.  Is there a way to move my equipment into Rooms?
+----------------------------------------------------------------------------------------------------------------------------
+
+See :ref:`here <Floor-Plans-Move_Equipment>` for an example in the Floor Plans.
+
 **********************************************************************************************************************************************************************************************
 
 #############
 Architectural
 #############
 
-.. hlist::
-    :columns: 1
+Do I need to create the Architectural Elements or do I need to use the Floor Plans workspace?
+---------------------------------------------------------------------------------------------
 
-    * Do I need to create the Architectural Elements or do I need to use the Floor Plans workspace?
-        
-        No.  These workspaces aid in the design process, and allow the designer to quickly alter the locations of equipment in their design, as the Architectural Elements change.  
+No.  These workspaces aid in the design process, and allow the designer to quickly alter the locations of equipment in their design, as the Architectural Elements change.  
 
-        These workspaces aid in calculating distances between equipment, which effect point-to-point calculations.
+These workspaces aid in calculating distances between equipment, which effect point-to-point calculations.
 
-        Though it is highly recommended, it is possible to manually enter all feeder and branch lengths.
+Though it is highly recommended, it is possible to manually enter all feeder and branch lengths.
 
-    * I'm in the Floor Plans.  How do I create my columns and floors?
-        
-        Use the Setup Wizard to create the XGrid and YGrid (column) components, and Floors.  Use the Grid Editor to modify the columns, or manually modify these components in the Arch. Elements workspace.
+I'm in the Floor Plans.  How do I create my columns and floors?
+---------------------------------------------------------------
 
-        See :ref:`Floor Plans <Floor-Plans-Overview>` or :ref:`Arch. Elements <Arch.-Elements>` for more information.
+Use the Setup Wizard to create the XGrid and YGrid (column) components, and Floors.  Use the Grid Editor to modify the columns, or manually modify these components in the Arch. Elements workspace.
 
-    * Is there a way to move my equipment in one Room to another location?
-        
-        Use the Floor Plans to shift room locations.  Drag and drop the room from one location to the next.  
-        
-        Or, manually modify the room characteristics by using the :ref:`Arch. Elements <Arch.-Elements>` workspace.
+See :ref:`Floor Plans <Floor-Plans-Overview>` or :ref:`Arch. Elements <Arch.-Elements>` for more information.
 
-        All equipment in the room will update their feeder lengths.
+Is there a way to move my equipment in one Room to another location?
+--------------------------------------------------------------------
+
+Use the Floor Plans to shift room locations.  Drag and drop the room from one location to the next.  
+
+Or, manually modify the room characteristics by using the :ref:`Arch. Elements <Arch.-Elements>` workspace.
+
+All equipment in the room will update their feeder lengths.
 
 ***************************************************************************************************************************************************************************************
 
@@ -94,64 +100,49 @@ Architectural
 Electrical Calculations
 #######################
 
-.. glossary::
+How is the length of a bus duct determined?
+-------------------------------------------
 
-    Load Capacity
-        Load Capacity is a custom size modified by the designer.  Protective devices are selected based on the Load Capacity.  Conductors are also selected based the Load Capacity.
+A bus duct must be assigned a Room.  Every branch of the bus duct must be assigned a room.  
 
-    % Design Spare Capacity
-        % Design Spare Capacity is an adjustment factor which is based on the Code Demand Load.  
+Pipe and wire is used until it terminates and transitions to bus duct at the Room of the bus duct.  
 
-.. hlist::
-    :columns: 1
+The vertical run of the bus duct is determined by the vertical distance between the Room of the branch load and Room of the bus duct.  
 
-    * How is the length of a bus duct determined?
-        
-        A bus duct must be assigned a Room.  Every branch of the bus duct must be assigned a room.  
+The bus duct transitions to pipe and wire, and the branch circuit length is determined from the distance between the Room of the bus duct, and the Room of the load.
 
-        Pipe and wire is used until it terminates and transitions to bus duct at the Room of the bus duct.  
+What is Load Capacity?
+----------------------
 
-        The vertical run of the bus duct is determined by the vertical distance between the Room of the branch load and Room of the bus duct.  
+Load Capacity is a custom size modified by the designer.  Protective devices are selected based on the Load Capacity.  Conductors are also selected based the Load Capacity.
 
-        The bus duct transitions to pipe and wire, and the branch circuit length is determined from the distance between the Room of the bus duct, and the Room of the load.
+For example, if a designer entered 401A as the Load Capacity of a 3-ø Distribution Board, then a 600AF, 450AT breaker would be selected, fed via 3#600 kcmils phase conductors.
 
-    * What is Load Capacity?
-        
-        Load Capacity is a custom size modified by the designer.  Protective devices are selected based on the Load Capacity.  Conductors are also selected based the Load Capacity.
-        
-        For example, if a designer entered 401A as the Load Capacity of a 3-ø Distribution Board, then a 600AF, 450AT breaker would be selected, fed via 3#600 kcmils phase conductors.
+What is Load Override?
+----------------------
 
-    * What is Load Override?
-        
-        Load Capacity is a custom size modified by the designer.  Protective devices are selected based on the Load Capacity.  Conductors are also selected based the Load Capacity.
-        
-        For example, if a designer entered 401A as the Load Capacity of a 3-ø Distribution Board, then a 600AF, 450AT breaker would be selected, fed via 3#600 kcmils phase conductors.
+Load Capacity is a custom size modified by the designer.  Protective devices are selected based on the Load Capacity.  Conductors are also selected based the Load Capacity.
 
-    
-    * What is % Design Spare Capacity?
-        
-        % Design Spare Capacity is an adjustment factor which is based on the Code Demand Load.  
+For example, if a designer entered 401A as the Load Capacity of a 3-ø Distribution Board, then a 600AF, 450AT breaker would be selected, fed via 3#600 kcmils phase conductors.
 
-        For example, if a distribution board has a Code Demand Load of 25A, and also has a % Design Spare Capacity of 20%, the Net Load on the distribution board will read 30A.
 
-    * How do I enter the available SCC from the Utility?
+What is % Design Spare Capacity?
+--------------------------------
 
-        Select the Utility source.  Under the "Miscellaneous" property grouping, enter the value under Available SCC (kA).
+% Design Spare Capacity is an adjustment factor which is based on the Code Demand Load.  
 
-        See :ref:`here <One-Line-SCC>` for an example.
+For example, if a distribution board has a Code Demand Load of 25A, and also has a % Design Spare Capacity of 20%, the Net Load on the distribution board will read 30A.
 
-    * How do I model a tap?
+How do I enter the available SCC from the Utility?
+--------------------------------------------------
 
-        To model a tap, create a Bus Node in between the source and the load.
+Select the Utility source.  Under the "Miscellaneous" property grouping, enter the value under Available SCC (kA).
 
-        See :ref:`here <One-Line-Tap>` for an example.
+See :ref:`here <One-Line-SCC>` for an example.
 
 How do I model a tap?
 ---------------------
 
-a tap has no name
+To model a tap, create a Bus Node in between the source and the load.
 
-How do I model a tap?
----------------------
-
-a tap has no name
+See :ref:`here <One-Line-Tap>` for an example.
