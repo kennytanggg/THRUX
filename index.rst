@@ -5,7 +5,7 @@ Introduction
     :maxdepth: 3
     :caption: Overview
 
-    source/overview/index-thrux
+    docs/overview/index-thrux
 
 User Guide
 ==========
@@ -14,7 +14,7 @@ User Guide
     :maxdepth: 3
     :caption: User Guide
 
-    source/userguide/index-user_guide
+    docs/userguide/index-user_guide
 
 Frequently Asked Questions
 ==========================
@@ -23,6 +23,6 @@ Frequently Asked Questions
     :maxdepth: 3
     :caption: FAQ's
 
-    source/faq
+    docs/faq
 
 Use our :ref:`Index <genindex>` or :ref:`Search <search>` for more information.
