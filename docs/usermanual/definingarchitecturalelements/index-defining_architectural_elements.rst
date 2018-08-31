@@ -14,8 +14,8 @@ These elements can be created in the Floor Plans workspace, or the Architectural
 
 .. _Floor-Plans-Overview:
 
-Floor Plans
------------
+**Floor Plans**
+---------------
 
 .. toctree::
     :maxdepth: 2

@@ -22,7 +22,7 @@ Enter a name for your project and select Start to load all of the default settin
 **Defining Architectural Elements**
 ===================================
 
-The goal of the Architectural Workspaces, Arch. Elements and Floor Plans, is to provide a quick way for designers to mass the load of a building.  They aid with point-to-point calculations.
+The goal of the Architectural Workspaces, :ref:`Arch. Elements <Arch.-Elements>` and :ref:`Floor Plans <Floor-Plans>`, is to provide a quick way for designers to mass the load of a building.  They aid with point-to-point calculations.
 
 However, these workspaces are completely optional.  For a smaller project, you may not find it necessary to set up these workspaces, and find it faster to manually input feeder lengths in the :ref:`One-Line <One-Line>`.
 
@@ -141,7 +141,7 @@ Now we're ready to build our electrical model.  Let's start in the :ref:`One-Lin
 **Building the One-Line**
 =========================
 
-Click the One-Line icon to open the workspace.  Power flow of your distribution system is shown from top to bottom.
+Click the :ref:`One-Line <One-Line>` icon to open the workspace.  Power flow of your distribution system is shown from top to bottom.
 
 .. image:: images/one-line-icon.PNG
     :align: center
@@ -191,11 +191,6 @@ Property Tags / Quick Views
 ---------------------------
 
 Now that we have equipment, we can assign them Room locations.  To do this, we will use the Property Tags.
-
-Open the Property Tags by clicking the label icon in the top toolbar.
-
-.. image:: images/one-line-property-tags-1.PNG
-    :align: center
 
 Open the Property Tags by clicking the label icon in the top toolbar.
 
@@ -303,6 +298,8 @@ To route equipment or to offset through a Riser, add the Riser Property Tag.  Th
 .. image:: images/one-line-riser-1.PNG
     :align: center
 
+Note the Net Length as the equipment is routed through the Riser.
+
 .. image:: images/one-line-riser-2.PNG
     :align: center
 
@@ -384,10 +381,10 @@ While Circuit Number #1 is selected, change DB-1 to DB-0.  The cyan selection re
 
 Here, we can assign the correct Floor Package to DB-0 using the Property Explorer, which is used to modify additional properties.
 
+Select the F1 Package and select Edit, which will bring up the Properties Explorer.  Change the name to F0 and change the Package to F0.
+
 .. image:: images/schedules-scope-to-one-line-2.PNG
     :align: center
-
-Select the F1 Package and select Edit, which will bring up the Properties Explorer.  Change the name to F0 and change the Package to F0.
 
 .. image:: images/schedules-scope-to-one-line-3.PNG
     :align: center
