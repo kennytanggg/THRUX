@@ -15,7 +15,7 @@ THRUX is a cloud-based design environment suite that fills the market gap of str
 New User?
 --------------
 
-Follow our :ref:`User Guide <User-Guide>` or see our :ref:`FAQ <Frequently-Asked-Questions>` for help.
+Follow our :ref:`Quick Start Guide <Quick-Start-Guide>` :ref:`User Manual <User-Manual>`, or see our :ref:`FAQ <Frequently-Asked-Questions>` for help.
 
 Licensing
 --------------

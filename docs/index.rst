@@ -7,13 +7,22 @@ Introduction
 
     overview/index-thrux
 
-User Guide
-==========
+Quick Start Guide
+=================
 
 .. toctree::
-    :caption: User Guide
+    :maxdepth: 3
+    :caption: Tutorial
 
-    userguide/index-user_guide
+    quickstartguide/index-quick_start_guide
+
+User Manual
+===========
+
+.. toctree::
+    :caption: User Manual
+
+    usermanual/index-user_manual
 
 Frequently Asked Questions
 ==========================
