@@ -33,4 +33,4 @@ Frequently Asked Questions
 
     faq
 
-Use our :ref:`Index <genindex>` or :ref:`Search <search>` for more information.
+Use our :ref:`Index <genindex>` or :ref:`Search <search>` for further information.
